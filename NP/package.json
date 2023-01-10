@@ -1,31 +1,30 @@
 {
   "name": "hoho-test-np",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-      "build": "echo \"build successful\" ",
-      "test": "echo \"Error: no test specified\"",
-      "publish": "npm i  && npm run build",
-      "deploy": "np",
-      "postdeploy": "bs"
+    "build": "echo \"build successful\" ",
+    "test": "echo \"Error: no test specified\"",
+    "publish": "npm i  && npm run build",
+    "deploy": "np"
   },
   "author": "hohozhu",
   "license": "ISC",
   "maintainers": [
-      "ones"
+    "ones"
   ],
   "publishConfig": {
-      "registry": "https://npm2.myones.net/",
-      "access": "public"
+    "registry": "https://npm2.myones.net/",
+    "access": "public"
   },
   "files": [
-      "dist/**/*"
+    "dist/**/*"
   ],
   "devDependencies": {
-      "branchsite": "^4.0.3"
+    "branchsite": "^4.0.3"
   },
   "dependencies": {
-      "np": "^7.6.3"
+    "np": "^7.6.3"
   }
 }
