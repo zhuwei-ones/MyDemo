@@ -1,3 +1,5 @@
+
+
 module.exports = {
 	yolo:false, // Skip cleanup and testing (false by default).
 	yarn: false, // Use yarn if possible (true by default).
@@ -8,5 +10,6 @@ module.exports = {
 	cleanup:true, //Cleanup node_modules
 	tag:true,  // Publish under a given dist-tag (latest by default).
 	releaseDraft:true, // Open a GitHub release draft after releasing (true by default).
-	message:"chore(release): v%s"
+	message:"chore(release): %s",
+	"2fa":false
 };
