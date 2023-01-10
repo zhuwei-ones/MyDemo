@@ -27,16 +27,5 @@
   },
   "dependencies": {
       "np": "^7.6.3"
-  },
-  "np": {
-      "yolo": false,
-      "yarn": false,
-      "contents": "dist",
-      "branch": "master",
-      "anyBranch": false,
-      "tests": true,
-      "cleanup": false,
-      "tag": true,
-      "releaseDraft": true
   }
 }
