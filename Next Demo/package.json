@@ -1,0 +1,26 @@
+{
+  "name": "hoho-next-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "PORT=4000 next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "fontmin": "^0.9.9",
+    "fs-extra": "^10.1.0",
+    "next": "12.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.55.0",
+    "webp-batch-convert": "^0.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.0",
+    "@types/react": "18.0.21",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0"
+  }
+}

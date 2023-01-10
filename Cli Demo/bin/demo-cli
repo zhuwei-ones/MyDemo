@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+const main = require('../lib/library.js');
+
+const yargs = require("yargs");
+
+const options = yargs
+ .usage("Usage: -c <file path>")
+ .option("c", { alias: "config", describe: "配置文件路径", type: "string" })
+ .option("e", { alias: "entry", describe: "监听文件目录", type: "string"})
+ .argv;
+ 
+
+
+console.log(options);
+
+
+if (options.help) {
+    console.log("需要帮助请联系 朱伟");
+}

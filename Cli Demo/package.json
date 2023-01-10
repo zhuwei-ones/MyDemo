@@ -1,0 +1,23 @@
+{
+  "name": "cli-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "hello": "bin/demo-cli"
+  },
+  "dependencies": {
+    "boxen": "4.0",
+    "chalk": "2.4",
+    "cwebp-bin": "^6.1.2",
+    "fs-extra": "^11.1.0",
+    "glob": "^8.0.3",
+    "@ones-ai/webp-auto-transform": "^1.1.6",
+    "yargs": "13.2"
+  }
+}

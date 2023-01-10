@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "D-DIN-Bold";
+    src: url("D-DIN-Bold.eot"); /* IE9 */
+    src: url("D-DIN-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("D-DIN-Bold.woff2") format("woff2"), /* chrome 36+, firefox 39+,iOS 10+, Android 67+ */
+    url("D-DIN-Bold.woff") format("woff"), /* chrome, firefox */
+    url("D-DIN-Bold.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("D-DIN-Bold.svg#D-DIN-Bold") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
