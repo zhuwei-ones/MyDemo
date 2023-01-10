@@ -5,7 +5,7 @@ module.exports = {
 	branch:"master", // Name of the release branch (master by default).
 	anyBranch:false, // Allow publishing from any branch (false by default).
 	tests:true, //Run npm test
-	cleanup:false, //Cleanup node_modules
+	cleanup:true, //Cleanup node_modules
 	tag:true,  // Publish under a given dist-tag (latest by default).
 	releaseDraft:true, // Open a GitHub release draft after releasing (true by default).
 

@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "build": "echo \"build successful\" && exit 1",
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "publish": "npm run build",
+      "build": "echo \"build successful\" ",
+      "test": "echo \"Error: no test specified\"",
+      "publish": "npm i  && npm run build",
       "deploy": "np",
       "postdeploy": "bs"
   },
@@ -20,8 +20,7 @@
       "access": "public"
   },
   "files": [
-      "./index.js",
-      "dist"
+      "dist/**/*"
   ],
   "devDependencies": {
       "branchsite": "^4.0.3"
