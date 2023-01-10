@@ -8,5 +8,5 @@ module.exports = {
 	cleanup:true, //Cleanup node_modules
 	tag:true,  // Publish under a given dist-tag (latest by default).
 	releaseDraft:true, // Open a GitHub release draft after releasing (true by default).
-
+	message:"chore(release): v%s"
 };
