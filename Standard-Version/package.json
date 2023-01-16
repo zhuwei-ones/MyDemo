@@ -1,6 +1,6 @@
 {
   "name": "standard-version",
-  "version": "1.0.1",
+  "version": null,
   "description": "",
   "main": "index.js",
   "scripts": {
