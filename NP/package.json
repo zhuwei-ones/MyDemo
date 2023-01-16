@@ -1,12 +1,13 @@
 {
   "name": "hoho-test-np",
-  "version": "1.0.3",
+  "version": "1.0.5-alpha.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "echo \"build successful\" ",
     "test": "echo \"Error: no test specified\"",
     "publish": "npm i  && npm run build",
+    "prepublish": "npm i  && npm run build && npm test",
     "deploy": "np"
   },
   "author": "hohozhu",
