@@ -3,6 +3,6 @@
 
 console.log();
 module.exports={
-    lernaPackage:"Standard-Version",
+    lernaPackage:"standard-version-demo",
     // path:"Standard-Version"
 }
