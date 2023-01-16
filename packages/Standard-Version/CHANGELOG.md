@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.7](https://github.com/zhuwei-ones/MyDemo/compare/v1.1.0-alpha.6...v1.1.0-alpha.7) (2023-01-16)
+
+
+### Features
+
+* other test7 ([e6c43cc](https://github.com/zhuwei-ones/MyDemo/commit/e6c43cc280d37bacec3d0ddfc4d10ecfeb366a63))
+* standard test package ([700a190](https://github.com/zhuwei-ones/MyDemo/commit/700a190c466a0a3d4fc7ee818403b70f2898dadf))
+
 ## [1.1.0-alpha.6](https://github.com/zhuwei-ones/MyDemo/compare/v1.1.0-alpha.5...v1.1.0-alpha.6) (2023-01-16)
 
 
