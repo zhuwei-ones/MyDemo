@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.6](https://github.com/zhuwei-ones/MyDemo/compare/v1.1.0-alpha.5...v1.1.0-alpha.6) (2023-01-16)
+
+
+### Features
+
+* other test5 ([45ef7f4](https://github.com/zhuwei-ones/MyDemo/commit/45ef7f424fc1bd2198d75dd998938e1ebe68cd7c))
+* standard test5 ([6148d39](https://github.com/zhuwei-ones/MyDemo/commit/6148d39de5ac9007f6c38106eab9d8e76898458e))
+
 ## [1.1.0-alpha.5](https://github.com/zhuwei-ones/MyDemo/compare/v1.1.0-alpha.4...v1.1.0-alpha.5) (2023-01-16)
 
 
