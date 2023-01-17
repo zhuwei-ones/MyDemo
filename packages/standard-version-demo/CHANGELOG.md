@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.12](https://github.com/zhuwei-ones/MyDemo/compare/standard-version-demo@1.1.0-alpha.11...standard-version-demo@1.1.0-alpha.12) (2023-01-17)
+
+
+### Features
+
+* standard add console test 2 ([257c36e](https://github.com/zhuwei-ones/MyDemo/commit/257c36e5c2e5e1d69386900f61c3317473d3fdd0))
+
 ## 1.1.0-alpha.11 (2023-01-17)
 
 
