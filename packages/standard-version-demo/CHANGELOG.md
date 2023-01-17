@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.20](https://github.com/zhuwei-ones/MyDemo/compare/standard-version-demo@1.1.0-alpha.19...standard-version-demo@1.1.0-alpha.20) (2023-01-17)
+
 ## [1.1.0-alpha.19](https://github.com/zhuwei-ones/MyDemo/compare/standard-version-demo@1.1.0-alpha.18...standard-version-demo@1.1.0-alpha.19) (2023-01-17)
 
 ## [1.1.0-alpha.18](https://github.com/zhuwei-ones/MyDemo/compare/standard-version-demo@1.1.0-alpha.17...standard-version-demo@1.1.0-alpha.18) (2023-01-17)
