@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.1.0-alpha.10 (2023-01-17)
+
+
+### Features
+
+* change name ([5a52998](https://github.com/zhuwei-ones/MyDemo/commit/5a52998b28e31df3bba9cb24de06e1eb5b1e85a0))
+* standard test package  2 ([c19b11a](https://github.com/zhuwei-ones/MyDemo/commit/c19b11a723b158ae7d480d736a1c748619ad6cb9))
+* standard test package  3 ([03f6c59](https://github.com/zhuwei-ones/MyDemo/commit/03f6c596fa5e8649b54ba11c9a68feeb8c7d2239))
+* standard test package 1 ([7def84e](https://github.com/zhuwei-ones/MyDemo/commit/7def84e2eb4749134b4539617ae39ee708840232))
+* standard test package path 1 ([67549de](https://github.com/zhuwei-ones/MyDemo/commit/67549dec9f03025ea998a5e996298ae6a5e048b3))
+
 ## [1.1.0-alpha.9](https://github.com/zhuwei-ones/MyDemo/compare/v1.1.0-alpha.8...v1.1.0-alpha.9) (2023-01-17)
 
 
