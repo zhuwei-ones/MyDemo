@@ -12,5 +12,8 @@ console.log();
 module.exports={
     lernaPackage:"standard-version-demo",
     tagPrefix:"standard-version-demo@",
-    path:"."
+    path:".",
+    scripts: {
+        prerelease:"echo 9.9.9"
+      }
 }
