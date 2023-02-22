@@ -1,0 +1,17 @@
+{
+  "name": "locale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/typescript-estree": "^5.52.0",
+    "fs-extra": "^11.1.0",
+    "glob": "^8.1.0",
+    "prettier": "^2.8.4"
+  }
+}

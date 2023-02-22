@@ -1,0 +1,1242 @@
+{
+  "baseComponent": {
+    "input": {
+      "defaultErrorTip": "有効なメールアドレスを入力してください。",
+      "defaultPlaceholder": "入力..."
+    },
+    "passwordInput": {
+      "capLockOn": { "label": "CAPS Lockはオンにしています" },
+      "check": {
+        "characters": "8〜32文字",
+        "number": "数字",
+        "letter": "アルファベット"
+      },
+      "noneTip": "パスワードは必須です。",
+      "formatTip": "パスワードが正しい形式ではありません。"
+    }
+  },
+  "global": {
+    "punctuation": {
+      "period": "。"
+    },
+    "error" : {
+      "not_found" : {
+        "msg1": "申し訳ございません。",
+        "msg2": "お探しのページが見つかりません。",
+        "button_text": "ONES について"
+      },
+      "server_error": {
+        "msg1": "申し訳ございません。",
+        "msg2": "サーバー側に発生した問題によって、リクエストが処理されませんでした。",
+        "description": "ページを更新するか、ONES ホームページに戻ってもう一度お試しください。同じエラーが続く場合は、お気軽にお問い合わせください。",
+        "button_text": "ホームページへ戻る",
+        "link_text": "お問い合わせ"
+      }
+    },
+    "possible_destination" : {
+      "title" : "おすすめページ:",
+      "docs": {
+        "headtitle": "お役立ち資料",
+        "description": "ガイドブックを見る"
+      },
+      "blog": {
+        "headtitle": "ブログ",
+        "description": "最新情報を確認"
+      },
+      "pricing": {
+        "headtitle": "料金プラン",
+        "description": "料金について"
+      },
+      "contact_us": {
+        "headtitle": "お問い合わせ",
+        "description": "相談はこちら"
+      }
+    },
+    "banner": { "title": "ONESのパートナーになりましょう" },
+    "input": { "placeholder": "メールアドレスを入力" },
+    "emailInput": { "button": { "text": "スタート" } },
+    "nav": {
+      "right": {
+        "demo": "デモを申し込む",
+        "login": "ログイン",
+        "start": "スタート"
+      },
+      "productsText": "製品",
+      "priceText": "料金プラン",
+      "docText": "お役立ち資料",
+      "featuresText": "機能",
+      "comparisonText": "比較",
+      "contactUsText": "お問い合わせ",
+      "companyText": "企業情報",
+      "company": {
+        "about": {
+          "title": "ONES について"
+        },
+        "partnerPrograms": {
+          "title": "パートナープログラム"
+        },
+        "termsService": {
+          "title": "利用規約"
+        },
+        "privacyPolicy": {
+          "title": "プライバシーポリシー"
+        }
+      },
+      "product": {
+        "ul": {
+          "project": {
+            "title": "ONES Project",
+            "des": "アジャイルチーム向けのプロジェクト管理プラットフォーム"
+          },
+          "wiki": { "title": "ONES Wiki", "des": "ボーダレスにつながる" },
+          "testCase": {
+            "title": "ONES TestCase",
+            "des": "QAチームがより製品を出せるように"
+          }
+        }
+      },
+      "resources": {
+        "docs": {
+          "title": "お役立ち資料",
+          "desc": "製品ガイド"
+        },
+        "blog": {
+          "title": "ブログ",
+          "desc": "生産性向上、製品ヒント、アップデートなどの最新情報をご紹介します"
+        }
+      },
+      "features": {
+        "gantt": {
+          "title": "ガントチャート",
+          "desc": "ガントチャートで作業を計画・可視化"
+        },
+        "worklogs": {
+          "title": "工数",
+          "desc": "工数管理で「人」と「作業」を見える化"
+        },
+        "reporting": {
+          "title": "レポート",
+          "desc": "実用的な洞察によってより良い意思決定を行う"
+        },
+        "automations": {
+          "title": "自動化",
+          "desc": "プロセスを加速化し、重複作業を避ける"
+        }
+      },
+      "comparison": {
+        "jira": {
+          "title": "vs Jira"
+        },
+        "monday": {
+          "title": "vs Monday"
+        }
+      }
+    },
+    "footer": {
+      "name": "ONES",
+      "product": {
+        "title": "製品",
+        "project": "ONES Project",
+        "wiki": "ONES Wiki",
+        "testCase": "ONES TestCase"
+      },
+      "resource": {
+        "title": "リソース",
+        "pricing": "料金プラン",
+        "docs": "お役立ち資料",
+        "blog": "ブログ",
+        "requestDemo": "デモを申し込む"
+      },
+      "company": {
+        "title": "企業情報",
+        "aboutUs": "ONES について",
+        "partner": "パートナープログラム",
+        "service": "利用規約",
+        "privacy": "プライバシーポリシー"
+      },
+      "features": {
+        "title": "機能",
+        "gantt": "ガントチャート",
+        "worklogs": "工数",
+        "reporting": "レポート",
+        "automations": "自動化"
+      },
+      "comparison": {
+        "title": "比較",
+        "jira": "vs Jira",
+        "monday": "vs Monday"
+      },
+      "copyright": { "text": "© 2023 ONES. All rights reserved." }
+    },
+    "journey": {
+      "prefixTitle": "ONES でプロダクトジャーニーを",
+      "suffixTitle": "スタートしましょう"
+    },
+    "netError": {
+      "title": "何らかのエラーが発生しました。もう一度お試しください。"
+    },
+    "text": {
+      "month": "month",
+      "months": "months"
+    }
+  },
+  "head": {
+    "home": {
+      "title": "ONES | 企業向けの高度なソフトウェア開発管理プラットフォーム",
+      "desc": "プロジェクト、タスク、ドキュメント、テストケース、その他様々な機能を使って製品の開発体験をリフレッシュしましょう。",
+      "keywords": "ONES ソフトウェア開発管理 企業プロジェクト管理"
+    },
+    "contactUs": {
+      "title": "お問い合わせ | ONES",
+      "billing": { "title": "営業チームへお問い合わせ | ONES" }
+    },
+    "pricing": {
+      "title": "ONESの料金プラン",
+      "desc": "ONES でプロダクトジャーニーをスタートしましょう",
+      "keywords": "ONES, ONES 料金プラン, ONES プロジェクト管理"
+    },
+    "products": {
+      "project": {
+        "title": "ONES Project | アジャイルチーム向けのプロジェクト管理プラットフォーム",
+        "desc":"ONES Project は、パワフルなカスタム機能により、ソフトウェア開発方法論に適応します。",
+        "keywords":"ONES Project ONES プロジェクト管理 プロジェクト管理 プロジェクト追跡 アジャイルチーム管理プラットフォーム"
+      },
+      "wiki": {
+        "title": "ONES Wiki | ドキュメントコラボ＆ナレッジ管理",
+        "desc": "人、アイデア、コンテンツの架け橋となり、全員の共通認識を築き、生産性を向上させます。",
+        "keywords": "ONES Wiki ナレッジベースソフトウェア ナレッジ管理ソフトウェア ドキュメントコラボレーション ドキュメントコラボレーションツール"
+      },
+      "testcase": {
+        "title": "ONES TestCase | QAチームがより製品を出せるように",
+        "desc": "エンドツーエンドの追跡可能性により、手動テストと QA プロセスを効率化し、高品質な製品をリリースします。",
+        "keywords": "ONES TestCase テスト管理 バグ追跡ソフトウェア ソフトウェアバグ追跡ツール"
+      }
+    },
+    "not_found": {
+      "title": "未検出"
+    },
+    "server_error": {
+      "title": "内部サーバーエラー"
+    },
+    "request_demo": { "title": "ONESとの出会い" },
+    "signUp": {
+      "title": "登録 | ONES",
+      "verifyemail": { "title": "登録 | ONES" }
+    },
+    "trust": {
+      "terms": { "title": "利用規約 | ONES", "desc": "The Beautiful ONES offers a variety of team productivity, collaboration, software development, project management and organizational tools available online.", "keywords": "ONES, ONES プロジェクト管理" },
+      "privacy": { "title": "プライバシーポリシー | ONES", "desc": "The Beautiful ONES Technology PTE. LTD.", "keywords": "ONES, ONES プロジェクト管理" }
+    },
+    "partner": {
+      "title": "ONES partnership program | ONES",
+      "desc": "新たな可能性を追求し、ビジネスを成長させる最適な方法を見つけましょう",
+      "keywords": "ONES, ONES パートナー, ONES プロジェクト管理",
+      "application": {
+        "title": "ONES partner application | ONES"
+      }
+    },
+    "about": {
+      "title": "ONES について",
+      "desc": "大規模ソフトウェア開発のために標準化されていたライン生産。",
+      "keywords": "ONES, ONES 企業情報, ONES プロジェクト管理"
+    },
+    "page404": {
+      "title": "Page not found"
+    },
+    "page500": {
+      "title": "Connection error. Try again later."
+    }
+  },
+  "home": {
+    "topBox": {
+      "release": "製品のリリースを",
+      "better": "素早く、スムーズに",
+      "des": "プロジェクト、タスク、ドキュメント、テストケース、その他様々な機能を使って製品の開発体験をリフレッシュしましょう。"
+    },
+    "introduction": {
+      "tabs": {
+        "planTabText": "計画と追跡",
+        "testTabText": "テストとリリース",
+        "collaborateTabText": "コラボレーション"
+      },
+      "plan_track": {
+        "title": "すべてを<rpc>一元管理<rpc>",
+        "linkText": "ONES Project について",
+        "lineText1": "プロジェクトマネージャー Olivia さんは、仕事に優先順位を付けて製品ロードマップを作成します。",
+        "lineText2": "<rpc>ロードマップ、<rpc><rpc>マイルストーン、<rpc><rpc>スプリント、<rpc><rpc>課題<rpc>等により、チームワークの<rpc>方向性を一致<rpc>させます。",
+        "lineText2__screen_part1": "<rpc>ロードマップ、<rpc><rpc>マイルストーン、<rpc><rpc>スプリント、<rpc><rpc>課題<rpc>等により、",
+        "lineText2__screen_part2": "チームワークの<rpc>方向性を一致<rpc>させます。",
+        "lineText3": "エピックは、実行可能なスプリントや課題に分解されます。",
+        "lineText4": "<rpc>チームの仕事量、タスクの進捗状況<rpc>、最も生産性が高い時間帯を可視化します。",
+        "lineText5": "直観的なレポートやダッシュボードを追加し、進捗を確認します。"
+      },
+      "test_release": {
+        "prefixTitle": "成果物を<rpc>完璧<rpc>に",
+        "suffixTitle": "<rpc>より良い製品をリリース <rpc>",
+        "linkText": "ONES TestCase について",
+        "lineText1": "要件とテストアクティビティを一か所で簡単に追跡し、QA プロセスを<rpc>リアルタイムに把握<rpc>します。",
+        "lineText2": "テストエンジニア Aaron さんがバグを検出・追跡します。",
+        "lineText3": "エンジニア Naomi さんがバグを修正します。",
+        "lineText4": "テスト結果により、自信を持ち、より良い製品をリリースします。",
+        "lineText5": "製品を成功にリリースします。"
+      },
+      "collaborate": {
+        "prefixTitle": "チームが<rpc>同じ情報を把握<rpc>し、",
+        "suffixTitle": "生産性を向上",
+        "linkText": "ONES Wiki について",
+        "lineText1": "プロジェクトマネージャー、エンジニア、テストエンジニアはドキュメントを共同編集できます。",
+        "lineText2": "ドキュメント、チェックリスト、マインドマップを<rpc>リアルタイムで作成・共同編集<rpc>し、アイデアを共有します。",
+        "lineText3": "プロダクトマネージャー Olivia さんは Wiki ページを課題にリンクします。",
+        "lineText4": "<rpc>オープンで透明性の高いナレッジベース<rpc>により、チームのナレッジとアイデアを共有しましょう。"
+      }
+    },
+    "allInOne": {
+      "title": "All-in-one",
+      "subTitle": "プロジェクト管理プラットフォーム",
+      "des": "プロジェクト、課題、ドキュメント、レポートを 1 つのプラットフォームで複数のチームにつなげることができます。",
+      "release": {
+        "prefixTitle": "<rpc>10 <rpc>人のチームも <rpc>1000 <rpc>人のチームも、",
+        "suffixTitle": "リリースを素早く",
+        "des": "あらゆる規模のチームに最適な方法を見つけることができます。"
+      }
+    },
+    "whyONES": {
+      "title": "Why ONES?",
+      "des1": "自社サーバーにWeb ベースで",
+      "des1_screen_spec.part1": "自社サーバーに",
+      "des1_screen_spec.part2": "Web ベースで",
+      "des2": "プラグインなしで、シームレスなユーザー体験を",
+      "des2_screen_spec.part1": "プラグインが不要、",
+      "des2_screen_spec.part2": "ユーザー体験の一貫性を",
+      "des3": "高性能と高可用性",
+      "begin": "ONESでプロダクトジャーニーをスタートしましょう"
+    },
+    "customer": {
+      "title": "あらゆるスケールで充実したカスタマーサポート",
+      "demand": "要件収集",
+      "product": "製品設定",
+      "installation": "インストールとデプロイメント",
+      "testing": "テストと成果物",
+      "training": "ユーザートレーニング",
+      "success": "カスタマーサクセス"
+    },
+    "customer_review": {
+      "headtitle": "<rpc>多くの業界<rpc>から信頼される",
+      "character_msg1": {
+        "title" : "ONES Project と ONES Wiki は私たちのニーズに応えられます。",
+        "desc": "Wiki のおかげで、プロジェクトの進捗をすぐ確認できます。そして、ONES Project の課題を Wiki ページに関連付けられます。一元管理によって無駄を削減して効率化を実現します。",
+        "characterName": "Jervis D.",
+        "characterJobTitle": "CEO",
+        "characterEnterpriseType": "小売業界"
+      },
+      "character_msg2": {
+        "title" : "ONES は Jira からデータ移行するための充実したサポート体制を提供します。",
+        "desc": "  ガイドブックが分かりやすくて ONES システムの使い方もすぐに慣れます。",
+        "characterName": "Adarsh S.",
+        "characterJobTitle": "IT 部門ディレクター",
+        "characterEnterpriseType": "AI 業界"
+      },
+      "character_msg3": {
+        "title" : "ONES のおかげで、生産性向上を実現できます。",
+        "desc": "業務プロセスを整理して改善を加え、すべてのメンバーは自分のやるべきことに集中できます。",
+        "characterName": "Martha D.",
+        "characterJobTitle": "QA エンジニア",
+        "characterEnterpriseType": "ソフトウェア業界"
+      }
+    }
+  },
+  "pricing": {
+    "common": {
+      "bundle": {
+        "title": "バンドル"
+      },
+      "products": {
+        "title": "製品"
+      },
+      "title": "料金プラン",
+      "monthly": "月額",
+      "annually": "年額",
+      "button": {
+        "contact_us": "お問い合わせ",
+        "try_for_free": "無料トライアル"
+      },
+      "text": {
+        "contact_us": "お問い合わせ",
+        "quote": "価格についてはお問い合わせください。"
+      },
+      "billed_annually": "年額契約",
+      "billed_monthly": "月額契約",
+      "perMonth": "1 ユーザー/月",
+      "usd": "USD",
+      "popular_features": "人気の機能：",
+      "features": "機能：",
+      "structured_test_case": "構造化されたテストケース",
+      "test_plan": "テスト計画",
+      "test_executions": "テスト実行とトレーサビリティ",
+      "bulk_import": "テストケースの一括インポート＆エクスポート",
+      "filter": "フィルター",
+      "create_bugs_to_project": "プロジェクトにバグを報告",
+      "linked_project_sprint_version": " プロジェクト、スプリント、バージョンを関連付ける",
+      "structured_page_tree": "構造化されたページツリー",
+      "version_history": "バージョン履歴",
+      "permission": "ページとスペースの権限",
+      "template_library": "ライブラリーテンプレート",
+      "collaboration_page": "リアルタイムのコラボページ",
+      "share_n_lock_page": "ページの共有と非公開",
+      "import_n_export": "インポート/エクスポート",
+      "enterprise_scale_api": "エンタープライズ規模の API",
+      "enterprise_grade_plugins": "エンタープライズグレードのプラグイン",
+      "high_availability": "高可用性",
+      "dedicated_success_manager": "専任のサクセスマネージャー",
+      "multiple_teams": "複数チーム",
+      "audit_log": "監査ログ",
+      "enterprise_grade_security": "エンタープライズグレードのセキュリティ",
+      "add_on_professional_services": "プロフェッショナルサービス",
+      "cloud": "クラウド版",
+      "ones_project": "ONES Project",
+      "ones_wiki": "ONES Wiki",
+      "ones_testcase": "ONES TestCase",
+      "ones_suite": "ONES Suite",
+      "gantt": "ガントチャート",
+      "work_log": "ワークログ",
+      "table": {
+        "features": "機能",
+        "support": "サポート",
+        "admin": "管理とセキュリティ"
+      },
+      "card": { "features": "機能" },
+      "reporting": "レポーティング",
+      "automation": "自動化"
+    },
+    "enterpriseBlock": {
+      "title": "企業向けプラン",
+      "desc": "プライベートクラウドに稼働します。高度なセキュリティ、コントロール、サポートが必要なグローバル企業に最適です。",
+      "plan": {
+        "server": { "title": "オンプレミス版" },
+        "email": { "desc1": "50 名のユーザーから利用可", "desc2": "年間契約" },
+        "feature": { "hide": "機能リストを縮小", "show": "機能リストを展開" },
+        "feature_content": {
+          "projects": "プロジェクト",
+          "sprints": "スプリント",
+          "issues": "課題",
+          "bug_tracking": "バグ追跡",
+          "scrum_boards": "スクラムボード",
+          "views": "ボード&リスト&テーブルビュー",
+          "milestone": "マイルストーンと成果物",
+          "notification": "通知とリマインダーをカスタマイズ",
+          "download": "ファイルを一括ダウンロード",
+          "workflow": "カスタマイズ可能なワークフロー",
+          "dependency": "依存関係の管理",
+          "max1G": "最大 100 個、1G まで",
+          "max3G": "最大 100 個、3G まで"
+        }
+      }
+    },
+    "bundle": {
+      "users": "ユーザー",
+      "feature_list": {
+        "project_sprints_issues": "プロジェクト、スプリント、課題",
+        "scrum_kanban_boards": "スクラムボードとカンバン",
+        "traceability": "テスト実行と追跡可能"
+      }
+    },
+    "doubt": {
+      "title": "よくあるご質問",
+      "question": {
+        "accept": "対応している支払い方法を教えてください。",
+        "member": "メンバーの追加や削除はどのように行われるのですか？",
+        "unsubscribe": "有料プランを解約するとどうなりますか？サブスクリプションを解約する方法は？",
+        "trial": "無料トライアルが終了するとどうなりますか？",
+        "refund": "返金ポリシーを教えてください。",
+        "remaining_license": " ライセンス数が不足している場合：年額契約のお客様は、私たちにお問い合わせください。",
+        "remaining_license_part2": " 追加購入サービスをご提供いたします。月額契約のお客様は、ライセンスを割り当てることができます。翌月の請求書に差額分をご請求いたします。",
+        "successor": "次回の請求サイクルのサブスクリプションを解約するか、請求日の前にサブスクリプションを再アクティブ化することができます。ご不明な点やご意見がございましたら、 <targetLink>お問い合わせ<targetLink> ください。",
+        "comments": " ください。",
+        "persistence": "サブスクリプションをキャンセルすると、次回の請求日以降、チームはデータの編集や追加ができなくなりますが、既存のデータを参照することができます。",
+        "please": "返金をご希望される場合は、<targetLink>お問い合わせ<targetLink> ください。",
+        "afterSales": "返金をご希望される場合は、<targetLink>お問い合わせ<targetLink> ください。"
+      },
+      "answer": {
+        "accept": "お支払い方法は、クレジットカードがご利用いただけます。（MasterCard、Visa、American Express）",
+        "member": "各ユーザーの製品へのアクセス権を管理できます。未使用のライセンスがある場合、メンバーの追加やアクセス権の付与は、料金が発生しません。製品アクセス権を削除すると、次回の請求サイクルまでにライセンスアクセスは未使用のままとなります。",
+        "unsubscribe": "次回の請求サイクルのサブスクリプションを解約するか、請求日の前にサブスクリプションを再アクティブ化することができます。ご不明な点やご意見がございましたら、お問い合わせください。",
+        "trial": "無料トライアルが終了したら、データの編集や追加はできなくなりますが、既存のデータを参照することができます。",
+        "remaining_license": "ライセンス数の残りが不足している場合は弊社まで <targetLink>お問い合わせ<targetLink> ください。追加のライセンス購入を手配させていただきます。月額契約のお客様は、ライセンス数が不足していてもアクセス権を付与することはできます。その場合、翌月のお支払いに対して課金させていただきます。",
+        "remaining_license_part1": "弊社",
+        "remaining_license_part2": "までご連絡ください。追加のライセンス購入を手配させていただきます。月額契約のお客様は、ライセンス数が不足していてもアクセス権を付与することはできます。その場合、翌月のお支払いに対して課金させていただきます。"
+      }
+    }
+  },
+  "priceStage": {
+    "monthlyBundles": {
+      "usd": {
+        "s_size": "22.39",
+        "m_size": "19.99",
+        "l_size": "17.59",
+        "xl_size": "15.19",
+        "xxl_size": "15.19"
+      }
+    },
+    "monthlyProject": {
+      "usd": {
+        "s_size": "11.50",
+        "m_size": "10.50",
+        "l_size": "9.50",
+        "xl_size": "8.50",
+        "xxl_size": "8.50"
+      }
+    },
+    "monthlyWiki": {
+      "usd": {
+        "s_size": "8.50",
+        "m_size": "7.50",
+        "l_size": "6.50",
+        "xl_size": "5.50",
+        "xxl_size": "5.50"
+      }
+    },
+    "monthlyTestCase": {
+      "usd": {
+        "s_size": "7.99",
+        "m_size": "6.99",
+        "l_size": "5.99",
+        "xl_size": "4.99",
+        "xxl_size": "4.99"
+      }
+    },
+    "annuallyTestCase": {
+      "usd": {
+        "s_size": "6.79",
+        "m_size": "5.94",
+        "l_size": "5.09",
+        "xl_size": "4.24",
+        "xxl_size": "4.24"
+      }
+    },
+    "annuallyProject": {
+      "usd": {
+        "s_size": "9.78",
+        "m_size": "8.93",
+        "l_size": "8.08",
+        "xl_size": "7.23",
+        "xxl_size": "7.23"
+      }
+    },
+    "annuallyWiki": {
+      "usd": {
+        "s_size": "7.22",
+        "m_size": "6.38",
+        "l_size": "5.53",
+        "xl_size": "4.68",
+        "xxl_size": "4.68"
+      }
+    },
+    "annuallyBundles": {
+      "usd": {
+        "s_size": "19.03",
+        "m_size": "16.99",
+        "l_size": "14.95",
+        "xl_size": "12.91",
+        "xxl_size": "12.91"
+      }
+    }
+  },
+  "products": {
+    "project": {
+      "management": {
+        "title": "アジャイルチーム向けプロジェクト管理プラットフォーム",
+        "title__screen_part1": "アジャイルチーム向け",
+        "title__screen_part2": "プロジェクト管理",
+        "title__screen_part3": "プラットフォーム",
+        "des": "ONES Project は、パワフルなカスタム機能により、ソフトウェア開発方法論に適応します。"
+      },
+      "features": {
+        "title": "組織を整え、共同作業を行う",
+        "des": "製品のアイデアからリリースまで、あらゆる種類のプロジェクト、課題、ワークフローを整理します。",
+        "scrum": {
+          "title": "スクラム",
+          "des": "条件に応じて製品バックログを管理し、スプリントを計画し、高品質な製品リリースを予測の範囲内で頻繁に行います。"
+        },
+        "kanban": {
+          "title": "カンバン",
+          "des": "カンバンで作業を可視化し、ワークフローを最適化します。計画の柔軟性を向上させ、タイムサイクルを短縮します。"
+        },
+        "waterfall": {
+          "title": "ウォーターフォールとハイブリッド",
+          "des": "ウォーターフォールのライフサイクルに沿い、サブタスク、依存関係、プロジェクトの各段階を管理します。"
+        }
+      },
+      "automation": {
+        "title": "自動化でスピードアップ",
+        "des": "カスタムルールを瞬時に作成し、ルーチンタスクを自動化させます。"
+      },
+      "insight": {
+        "prefixTitle": "深い洞察力を身につけ",
+        "suffixTitle": "改善を実行",
+        "des": "直観的なデータにより、チームのパフォーマンスを効果的に測定し、生産性を向上させます。",
+        "dashboards": {
+          "title": "ダッシュボード",
+          "des": "重要な指標にフォーカスします。プロジェクト、スプリント、課題、リリースを軌道に乗せます。"
+        },
+        "reports": {
+          "title": "レポート",
+          "des": "多次元レポートにより、プロジェクトのパフォーマンスを評価します。"
+        }
+      },
+      "scale": {
+        "prefixTitle": "強固なインフラにより、",
+        "suffixTitle": "充実したセキュリティ対策を",
+        "des": "最高クラスのセキュリティ機能を完備し、企業のデータを保護します。",
+        "security": {
+          "prefixAccessText": "柔軟な",
+          "suffixAccessText": "アクセス制御",
+          "prefixPermissionText": "高度な",
+          "suffixPermissionText": "権限設定",
+          "prefixLogText": "セキュリティ",
+          "suffixLogText": "監査ログ",
+          "prefixAvailableText": "自社サーバーに",
+          "suffixAvailableText": "使用可能"
+        }
+      },
+      "empower": {
+        "prefixTitle": "開発ツールや統合により、",
+        "suffixTitle": "プロジェクトを円滑に進める",
+        "des": "ONES のサービスも、外部サービスも、ONES Project でシームレスに連携できます。"
+      },
+      "price": {
+        "title": "料金プラン",
+        "cloud": {
+          "title": "クラウド版",
+          "prefixDes": "14 日間の無料トライアル、",
+          "suffixDes": "クレジットカードの必要なし。",
+          "priceDes": "1 ユーザー/月、月額契約",
+          "priceDes2": "1〜100 名のユーザー",
+          "buttonText": "無料トライアル"
+        },
+        "server": {
+          "title": "オンプレミス版",
+          "des": "プライベートクラウドに稼働します。高度なセキュリティ、コントロール、サポートが必要なグローバル企業に最適です。",
+          "priceDes": "50 名のユーザーから利用可",
+          "priceDes2": "年間契約",
+          "buttonText": "お問い合わせ"
+        },
+        "linkText": "すべての料金プランを見る"
+      }
+    },
+    "testCase": {
+      "holistic": {
+        "title": "全体的なテストプロセス",
+        "testcase_library": {
+          "title": "テストケースライブラリー",
+          "tip1": "再利用可能なテストケースを階層的に整理します。",
+          "tip2": "すべての詳細情報を簡単に管理し、構造化することができます。",
+          "tip3": "テストケースの一括インポートや編集が可能です。",
+          "tip4": "ニーズに合わせてフィールドをカスタマイズします。"
+        },
+        "testcase_plan": {
+          "title": "テスト計画",
+          "tip1": "テストライブラリーからテストケースを選択し、テスト計画を整理します。",
+          "tip2": "カスタムフィールドの追加により、計画を説明します。"
+        },
+        "testcase_run": {
+          "title": "テスト運行",
+          "tip1": "テストステップを通じてテスト計画を実行し、その状態をマークします。",
+          "tip2": "クリックだけでバグとスプリント・要件を関連付けられます。"
+        },
+        "testcase_track": {
+          "title": "バグ追跡",
+          "tip1": "要件から実行結果までバグを追跡し、ダイナミックな追跡可能性を実現します。"
+        },
+        "testcase_report": {
+          "title": "テストレポート",
+          "tip1": "詳細で直観的なテストレポートにより、スマートな意思決定を行うことができます。"
+        },
+        "library": {
+          "title": "リアルタイムで共同編集",
+          "des1": "テストケースを階層的に整理します。",
+          "des2": "すべての詳細情報を簡単に管理し、構造化することができます。",
+          "des3 ": "テストケースの一括インポートや編集が可能です。",
+          "des4": "ニーズに合わせてフィールドをカスタマイズします。"
+        },
+        "plans": {
+          "title": "テストケース計画",
+          "des1": "テストライブラリーからテストケースを選択し、テスト計画を整理します。",
+          "des2": "カスタムフィールドの追加により、プランを説明します。"
+        },
+        "runs": {
+          "title": "テストケース運行",
+          "des1": "テストステップを通じてテスト計画を実行し、その状態をマークします。",
+          "des2": "クリックだけでバグとスプリント・要件を関連付けられます。"
+        },
+        "bug": {
+          "title": "バグ追跡",
+          "des1": "要件から実行結果までバグを追跡し、ダイナミックな追跡可能性を実現します。"
+        },
+        "reports": {
+          "title": "テストレポート",
+          "des1": "詳細で直観的なテストレポートにより、スマートな意思決定を行うことができます。"
+        }
+      },
+      "reasons": {
+        "title": "Why TestCase",
+        "des": "チームで迅速かつ簡単に情報の作成・保存・共有・検索ができるように設計されています。",
+        "title1": "ページツリー",
+        "desc1": "ページを明確な構造で整理します。",
+        "title2": "グローバル検索",
+        "desc2": "高度な検索機能により、瞬時に情報を探し出すことができます。",
+        "title3": "ナレッジ共有",
+        "desc3": "素晴らしいアイデアを共有し、共にハイレベルを目指しましょう。",
+        "title4": "セキュリティと簡単",
+        "desc4": "情報の安全を守るために、権限をカスタマイズできます。",
+        "allinone": {
+          "prefixAccessText": "すべてを一か所で",
+          "suffixAccessText": "コラボプラットフォームでテストを管理・実行・追跡することができます。"
+        },
+        "customizable": {
+          "prefixAccessText": "フルカスタマイズ対応",
+          "suffixAccessText": "フィールド、ビュー、権限、ワークフロー等をカスタマイズできます。"
+        },
+        "integration": {
+          "prefixAccessText": "シームレスな統合",
+          "suffixAccessText": "テスト結果を課題に関連付け、ONES Project でバグを報告します。"
+        },
+        "reports": {
+          "prefixAccessText": "スマートレポート",
+          "suffixAccessText": "高度なダッシュボードとレポートでデータを可視化します。"
+        }
+      },
+      "characters": {
+        "testEngineer": "Test engineer",
+        "engineer": "Engineer",
+        "planner": "PM/PO",
+        "prefixTitle": "あなたのロールに合わせたツール"
+      },
+      "highlight": {
+        "title": "その他の特徴",
+        "overview": { "prefixAccessText": "テスト概要" },
+        "filter": { "prefixAccessText": "パワフルなフィルター" },
+        "permission": { "prefixAccessText": "柔軟な権限設定" },
+        "export": { "prefixAccessText": "エクスポート/インポート" },
+        "structure": { "prefixAccessText": "構造化" },
+        "template": { "prefixAccessText": "レポートテンプレート" }
+      }
+    },
+    "wiki": {
+      "features": {
+        "des": "強力なブロックにより、ユーザーフレンドリーなコンテンツをリアルタイムに作成します。",
+        "title": "リアルタイム、同期、シンプル",
+        "scrum": {
+          "title": "リアルタイムで共同編集",
+          "des": "共同編集者や編集内容をリアルタイムで確認でき、一体感を高めます。"
+        },
+        "kanban": {
+          "title": "コメント、ディスカッション、タスク",
+          "des": "計画、協力、タイムリーなフィードバックを行うために、ToDo リストで社内コミュニケーションを促進します。"
+        },
+        "waterfall": {
+          "title": "内容編集も書式調整も楽に",
+          "des": "テーブル、Markdown、コードブロック、フローチャート、マインドマップの追加により、必要なドキュメントを作成します。"
+        }
+      },
+      "efficiency": {
+        "title": "チームのノウハウを最大限に活用",
+        "des": "チームで迅速かつ簡単に情報の作成・保存・共有・検索ができるように設計されています。",
+        "title1": "ページツリー",
+        "desc1": "ページを明確な構造で整理します。",
+        "title2": "グローバル検索",
+        "desc2": "高度な検索機能により、瞬時に情報を探し出すことができます。",
+        "title3": "ナレッジ共有",
+        "desc3": "素晴らしいアイデアを共有し、共にハイレベルを目指しましょう。",
+        "title4": "セキュリティも、使いやすさも",
+        "desc4": "情報の安全を守るために、権限をカスタマイズできます。"
+      },
+      "association": {
+        "title": {
+          "line1": "Wiki & Project:",
+          "line2": "より良いコラボレーションと追跡"
+        },
+        "desc": "ツールを最大限に活用し、全体の効率を向上させます。",
+        "title1": "プロジェクトのドキュメントを一か所に集約",
+        "title1.prefix": "プロジェクトのドキュメントを",
+        "title1.suffix": "一か所に集約",
+        "desc1": "メールやフォルダ、Google ドライブの中からほしい情報を簡単に確認できます。",
+        "title2": "チーム間のコミュニケーションを強化",
+        "desc2": "チームの進捗を完全に可視化し、クロスファンクショナルチームの壁を突破します。"
+      }
+    }
+  },
+  "sign": {
+    "data": { "error": { "unknown": "データ送信失敗" } },
+    "title": "スタート",
+    "email": {
+      "label": "ビジネス用のEメールアドレス",
+      "placeholder": "name@company.com",
+      "errorTip": "有効なメールアドレスを入力してください。",
+      "noneErrorTip": "メールアドレスは必須です。",
+      "isExistErrorTip": "このメールアドレスで登録されたアカウントが存在します。ログインしてください。"
+    },
+    "password": { "label": "パスワード", "placeholder": "8〜32文字" },
+    "name": {
+      "label": "氏名",
+      "errorTip": "名前は必須です。",
+      "placeholder": "佐藤 太郎"
+    },
+    "signUp": {
+      "button": { "label": "続く" },
+      "tip1": "サインアップにより、ONESの",
+      "tip2": "利用規約",
+      "tip3": "と",
+      "tip4": "プライバシーポリシー",
+      "tip5": "に同意します",
+      "belowText1": "すでにアカウントをお持ちですか？",
+      "belowText2": "ログイン",
+      "step2": {
+        "title": "メールをご確認ください",
+        "subTitle1": "6 桁の認証コードを",
+        "subTitle1.suffix": " に送信しました",
+        "subTitle2": "15 分以内に入力してください。",
+        "inputLabel": "認証コード",
+        "inputPlaceholder": "6 桁の認証コードを入力してください",
+        "resendTip": "メールを受信していませんか？",
+        "resendText": "コードを再送信",
+        "resendIn": "再送信",
+        "withoutReceiveLabel": "メールが届かない場合は、",
+        "errorTip1": "認証コードの試行回数が上限に達しました。10分後にもう一度お試しください。",
+        "errorTip2": "認証コードの試行回数が上限に達しました。60秒後にもう一度お試しください。",
+        "contactUs": "<targetLink>お問い合わせ<targetLink>ください",
+        "submitLabel": "認証",
+        "codeTip1": "認証コードは必須です。",
+        "codeTip2": "6 桁の認証コードを入力してください。",
+        "codeTip3": "コードが無効です。確認してから、もう一度お試しください。",
+        "emailExpiredCodeTip": "コードの有効期限が切れました。新しいコードをリクエストしてください。",
+        "mobileSuccess": {
+          "title": "ONESアカウントが作成されました",
+          "des": "モバイルブラウザには対応していません。 パソコンでお試しください。"
+        }
+      }
+    },
+    "loginMobile": {
+      "title": "モバイルブラウザには対応していません。 パソコンでお試しください。"
+    }
+  },
+  "testCase": {
+    "banner": {
+      "title1": "高精度に追跡、高品質な成果物を",
+      "title__screen_part1": "高精度に追跡、",
+      "title__screen_part2": "高品質な成果物を",
+      "title2": " without silos",
+      "desc1": "エンドツーエンドの追跡可能性により、手動テストと QA プロセスを効率化し、高品質な製品をリリースします。"
+    }
+  },
+  "wiki": {
+    "banner": {
+      "title1": "ボーダレスに",
+      "title2": "つながる",
+      "desc1": "人、アイデア、コンテンツの架け橋となり、全員の共通認識を築き、生産性を向上させます。",
+      "desc2": "チームの生産性を向上させます。"
+    }
+  },
+  "company": {
+    "common": {
+      "applyButton": "申し込む",
+      "slogan": "ONES のパートナーになりましょう"
+    },
+    "partner": {
+      "explore": {
+        "title": "ONES パートナー",
+        "desc": "新たな可能性を追求し、ビジネスを成長させる最適な方法を見つけましょう。",
+        "desc__screen_part1": "新たな可能性を追求し、ビジネスを成長させる",
+        "desc__screen_part2": "最適な方法を見つけましょう。"
+      },
+      "partnership": {
+        "title": "最適なパートナープログラム",
+        "channel": {
+          "title": "チャンネルパートナー",
+          "desc": "ONES の製品とソリューションのマーケティング、販売、提供により、顧客基盤を拡大し、より多くの収益を生み出し、ビジネスの成長を加速させます。ONES と共にお客様の働き方改革を進めましょう。"
+        },
+        "tech": {
+          "title": "技術パートナー",
+          "desc": "市場における空白領域を埋める強力な機能により、市場のニーズへの対応力を強化します。パートナーになり、製品の導入率を加速させます。"
+        },
+        "solution": {
+          "title": "ソリューションパートナー",
+          "desc": "プリセールスコンサルティングやインストールから、ソリューションのパーソナライズまで、より一層充実したサービスにより、製品の価値を高め、様々なユーザーニーズに応えます。顧客生涯価値を最大化させるマネージドサービスを提供します。"
+        }
+      },
+      "team": {
+        "title": "ONES と手を組みましょう",
+        "opportunities": {
+          "title": "より多くの可能性",
+          "desc": "より多くの潜在顧客を発掘し、活発化している市場の一翼を担います。"
+        },
+        "substantial": {
+          "title": "相当な収益",
+          "desc": "市場のニーズに応える製品を提供して利益を最大化し、ビジネスの成長を促進します。"
+        },
+        "unique": {
+          "title": "独特な市場拡大戦略",
+          "desc": "様々なソーシャルプラットフォームを活用し、ビジネスの成長を促進します。"
+        },
+        "support": {
+          "title": "充実した技術サポート体制",
+          "desc": "業界の専門家チームと協力し、パートナーシップを成功に導きます。"
+        },
+        "certificate": {
+          "title": "パートナー認定書",
+          "desc": "当社独自のパートナー認定証を授与します。"
+        },
+        "training": {
+          "title": "無料トレーニング",
+          "desc": "無料トレーニングを受け、より専門的なソリューションを提供します。"
+        }
+      }
+    },
+    "about": {
+      "origin": {
+        "head": {
+          "title": "<rpc>ONES<rpc> はなぜ誕生したのか",
+          "desc": "大規模ソフトウェア開発のために標準化されていたライン生産。"
+        },
+        "content": {
+          "development": {
+            "title": "かつて不思議なソフトウェア開発",
+            "desc": {
+              "paragraph": "ソフトウェアの開拓者として、人生の頂点に達し、並外れたスキルを持っているインターネット業界の「英雄」伝説に人々は驚かされました。",
+              "paragraph2": "しかし、時間が経つにつれて、自動化と DX の発展によって、人間社会は新たな段階を迎えました。ソフトウェア開発はますます楽になりますが、開発の管理に難色を示している人が少なくありません。"
+            }
+          },
+          "situation": {
+            "title": "今後、開発者の増加も継続",
+            "desc": {
+              "paragraph": "報告によると、ソフトウェア開発の従事者は 2024年で 2870 万に達する見込みです。",
+              "paragraph2": "集団的知性によるメンバー管理と優秀な製品開発はますます大きな課題となっています。"
+            }
+          },
+          "vision": {
+            "title": "ソフトウェア開発のために標準化されていたライン生産",
+            "desc": {
+              "paragraph": "ソフトウェア開発の神秘さはすでに過去のものになりつつあり、従来の効率悪い方法からライン生産への改革をすべきだと ONES の創立者が思っています。",
+              "paragraph2": "そこで ONES の出番です。ONES は大規模ソフトウェア開発のために、標準化されていたライン生産を構築します。"
+            }
+          }
+        }
+      },
+      "mission": {
+        "title": "私たちのミッション",
+        "desc": "ONES は、高性能と高可用性の all-in-one ソフトウェア開発管理プラットフォームにより、世界中のどのチームもソフトウェアをより素早く、スムーズにリリースできるように支援します。"
+      },
+      "values": {
+        "title": "私たちの価値観",
+        "communication": {
+          "title": "チーム ＆ コラボレーション",
+          "desc": "世界中のあらゆる会社に効率的なコラボレーション環境と充実したサービス体制を提供します。"
+        },
+        "intelligence": {
+          "title": "人の知能",
+          "desc": "優れた企業も製品も、人は必要不可欠であり、そして、顧客と社員から信頼を得ている私たちは、人間は万物の尺度であると思っています。"
+        },
+        "software": {
+          "title": "不思議なソフトウェア",
+          "desc": "不思議で強力なソフトウェアにより、この先、誰でも世界を変えられると信じています。"
+        }
+      },
+      "info": {
+        "title": "会社概要",
+        "companyName": {
+          "key": "社名",
+          "value": "ONES JAPAN株式会社"
+        },
+        "location": {
+          "key": "所在地",
+          "value": "東京都中央区日本橋1-2-10"
+        },
+        "established": {
+          "key": "設立",
+          "value": "2022年09月"
+        },
+        "businessContent": {
+          "key": "事業内容",
+          "value": {
+            "notice1": "IT システムの企画、設計、開発、運用及び販売",
+            "notice2": "コンピューターシステム情報の提供",
+            "notice3": "ソフトウェアの企画、立案、開発、販売及び代理店業等"
+          }
+        },
+        "financialInstitution": {
+          "key": "取引金融機関名",
+          "value": "三井住友銀行"
+        },
+        "mail": {
+          "key": "E-mail",
+          "value": "support@ones.com"
+        }
+      }
+    }
+  },
+  "features": {
+    "gantt": {
+      "title": "ONES ガントチャート | ガントチャートでプロジェクトの計画策定、分解、追跡",
+      "desc": "ガントチャートでチームの生産性を向上させ、プロジェクト管理を楽にします。",
+      "keywords": "ONES ガントチャート プロジェクト追跡 プロジェクト管理ツール ウォーターフォールプロジェクト管理 WBS",
+      "first": {
+        "title": "計画、整理、追跡、{0} すべてが柔軟に",
+        "desc": "ガントチャートでチームの生産性を向上させ、{0} プロジェクト管理を楽にしましょう。"
+      },
+      "animate": {
+        "title": "WBS に基づいてプロジェクトの {0}計画策定と分解を簡単に行う",
+        "plan": {
+          "title": "計画管理が楽に",
+          "desc": "計画を作成してタスクに分解し、{0}段階的に細かくしていきます。"
+        },
+        "watch": {
+          "title": "進捗を的確に把握",
+          "desc": "チャートでドラッグ＆ドロップしてタスクの期間を設置します。進捗率を使い、進み具合を把握しましょう。"
+        },
+        "point": {
+          "title": "重要な節目を設置",
+          "desc": "マイルストーンと成果物を設置して重要なポイントを明確に把握し、重要な成果物を追跡します。"
+        },
+        "schedule": {
+          "title": "依存関係でボトルネックを{0}見つける",
+          "desc": "依存関係を割り当てて優先順位を決め、自動スケジューリングでコンフリクトを解決します。"
+        }
+      },
+      "third": {
+        "title": "プロセスを一目で把握、{0} 目標達成に向かって進もう",
+        "one": {
+          "title": "プロセスを追跡・可視化",
+          "desc": "複数のベースラインを設定して実績値と基準値の比較によって、プロセスを追跡・改善することが可能です。"
+        },
+        "two": {
+          "title": "延期のリスクを識別",
+          "desc": "予定と実行のギャップを確認して、タスクの実行が遅れた場合、通知をリアルタイムに受信することができます。"
+        }
+      },
+      "fourth": {
+        "title": "プロセス管理がパワーアップ",
+        "waterfall": {
+          "title": "ウォーターフォール開発",
+          "desc": "プロジェクトのそれぞれのフェーズで計画を立てて、タスクを管理・追跡します。タスクをメンバーに割り当てて、チャートで遅延などのリスクを洗い出します。"
+        },
+        "scrum": {
+          "title": "スクラム開発",
+          "desc": "スクラム開発プロセスのタイムラインを作成して、チャートで依存関係とプログレスバーによってスプリントとタスクを可視化します。"
+        },
+        "delivery": {
+          "title": "ソフトウェアデリバリー",
+          "desc": "チャートで進捗を的確に把握して遅延のリスクを識別し、納期を厳守して顧客のニーズに応えます。"
+        },
+        "launch": {
+          "title": "プロダクトローンチ",
+          "desc": "開発が着実に進められるように、意思決定、ステップ、タスクなどの情報が含まれるプロダクトローンチ計画を作成しましょう。"
+        }
+      },
+      "cta": "ガントチャートを活用して納期厳守"
+    },
+    "worklogs": {
+      "title": "ONES 工数 | 工数の記録、追跡、レポート",
+      "desc": "工数の見積もり、工数ログの追跡、レポートレビューなどで、チームの作業負荷管理と継続的改善を行います。",
+      "keywords": "ONES 工数 プロジェクト時間追跡 プロジェクト時間追跡ソフトウェア プロジェクト追跡プロジェクト管理ツール",
+      "first": {
+        "title": "全プロセスをカバー {0}する工数管理",
+        "desc": "工数の見積もり、工数ログの追跡、レポートレビューなどで、{0} チームの作業負荷管理と継続的改善を行います。"
+      },
+      "animate": {
+        "title": "柔軟な工数モードから {0} シンプルな工数管理へ",
+        "desc": "モードを選択して予定工数と実作業時間を追加しましょう。{0} 個人リソースやタスクの割り当てが簡単になります。",
+        "split": {
+          "title": "予定工数をメンバーに割り当てる",
+          "desc": "メンバーの工数を見積もる・記録することによってタスクの進捗を把握します。このモードを使い、チームの作業負荷とプロジェクトの進捗を簡単に管理できます。"
+        },
+        "focus": {
+          "title": "プロジェクト工数の合計に焦点を当てる",
+          "desc": "予定工数と実作業時間の追加によって、工数の予測値と実績値を比較して作業の進捗を把握することができます。"
+        }
+      },
+      "third": {
+        "title": "工数が一目瞭然",
+        "one": {
+          "title": "時間管理がバッチリ",
+          "desc": "全体工数を把握して、課題、スプリント、プロジェクトにかかる工数がはっきりしています。"
+        },
+        "two": {
+          "title": "作業時間の記録で進捗を追跡",
+          "desc": "工数統計を使い、異なる次元から全体の進捗を把握します。作業を着実に前進させるか残り工数で確かめましょう。"
+        }
+      },
+      "fourth": {
+        "title": "チームの作業負荷は {0} 一目でわかる",
+        "desc": "工数カレンダーでチームメンバーの稼働率を確認し、{0}作業負荷を正確に追跡してタスクを効率的に割り当てることができます。"
+      },
+      "fifth": {
+        "title": "人もプロジェクトも {0} 可能性を最大限に引き出す",
+        "one": {
+          "title": "メンバーの工数一覧",
+          "desc": "各メンバーの作業負荷を把握し、リソース管理と意思決定をよりよく行います。"
+        },
+        "two": {
+          "title": "プロジェクトの工数一覧",
+          "desc": "プロジェクトまたはスプリントにおける工数配分が一目でわかり、納期に間に合うための十分なリソースを確保します。"
+        }
+      },
+      "cta": "チームの時間を最大限に活用"
+    },
+    "reporting": {
+      "title": "ONES レポート | レポートから実用的なインサイトを引き出す",
+      "desc": "プロジェクトデータを表示するチャートによって、チームの生産性を測定して効率を向上させます。レポートとダッシュボードを使い、データ駆動型意思決定を促進します。",
+      "keywords": "ONES レポート, プロジェクト計画, バグレポート, プロジェクト追跡, プロジェクト管理ツール",
+      "insight": "データを実用的な洞察に変える",
+      "insight_desc": "レポートとダッシュボードを使い、チームの生産性を測定して{0}データ駆動型の意思決定を促進します。",
+      "empower": "レポートをうまく使えば、{0}プロジェクト管理の武器になる",
+      "empower_desc": "ONES プロジェクトのレポート・コンポーネントは、プロジェクト管理をうまく進めるために、{0}チームの意思決定を支えるリアルタイムの洞察を提供します。",
+      "empower_plan": "計画立案の最適化",
+      "empower_plan_desc": "レポートを活用して作業の計画と割り当てを適切に行います。",
+      "empower_track": "進捗の追跡",
+      "empower_track_desc": "タスク、要件、バグのステータスレポートにより、作業状況を追跡します。",
+      "empower_review": "レビューと改善",
+      "empower_review_desc": "実績値と予測値の比較によって、問題を特定して改善を促します。",
+      "easy": "レポートテンプレートを使い、{0}管理をより楽に",
+      "easy_work": "作業管理",
+      "easy_work_desc": "あらゆる角度から作業状況を把握して進捗を追跡し、ボトルネックを見つけて重要なデータを確認することで、継続的改善を行います。",
+      "easy_work_text1": "課題分布統計",
+      "easy_work_text2": "課題フィールド滞留時間統計",
+      "easy_work_text3": "課題傾向統計",
+      "easy_work_text4": "課題フィールド滞留時間",
+      "easy_work_overview1": "異なる角度からチームの作業分布を把握し、タスクの割り当てと作業管理を適切に行います。",
+      "easy_work_overview2": "課題フィールドの滞留時間を確認することで、ボトルネックを見つけて行き詰まりを回避します。",
+      "easy_work_overview3": "様々な角度から作業を追跡・分析します。",
+      "easy_work_overview4": "複数フィールドの作業滞留時間がはっきりわかります。",
+      "easy_quali": "品質分析",
+      "easy_quali_desc": "要件とバグの重要なメトリックを使い、開発およびテストの品質を測定します。",
+      "easy_quali_req": "要件メトリック分析",
+      "easy_quali_improve": "レポートを使って要件のメトリックを測定し、納品を効率化して顧客満足度を上げます。",
+      "easy_quali_bug": "バグメトリック分析",
+      "easy_quali_monitor": "異なる次元に基づいてバグのメトリックを測定し、品質保証の活動を監視・改善します。",
+      "easy_workload": "作業負荷分析",
+      "easy_workload_desc": "あらかじめ用意されている工数分析レポートでプロジェクトパフォーマンスを評価し、リソース割り当てをレビューします。",
+      "easy_workload_list": "工数統計",
+      "easy_workload_monitor": "フィルタ条件を指定して、チームの作業負荷を把握することができます。",
+      "easy_workload_overview": "工数概要",
+      "easy_workload_analysis": "作業負荷分析でリソース割り当てを効果的に行い、二つのグループ条件に基づく作業時間の分布を確認しましょう。",
+      "customize": "異なるメトリックによる{0}高度なチャートのカスタマイズ",
+      "customize_desc": "  二重軸チャートまたはマルチバーチャートで、複数のメトリックを把握することができます。{0}一つ一つのメトリックにフィルターを設置してフィールドを選択することが可能です。",
+      "dashboard": "すべてはダッシュボードで{0}一目でわかる",
+      "dashboard_desc": "ダッシュボードをカスタマイズすることにより、プロジェクトの進捗を見える化してタスクを管理します。",
+      "cta": "多次元レポートで{0}継続的に改善する"
+    },
+    "automations": {
+      "title": "ONES 自動化 | チームのルーチンタスクを自動化",
+      "desc": "自動化のプロセスを構築し、ルーチンタスクの自動化を実現します。ワークフローを改善してミスを減らし、時間を効率的に使いましょう。",
+      "keywords": "ONES 自動化, プロジェクト追跡, プロジェクト管理ツール",
+      "unleash": "自動化でチームの{0}生産性を最大化",
+      "unleash_desc": "ルーチンタスクの自動化によって、ワークフローを改善してミスを減らし、{0}チームの時間を効率的に使いましょう。",
+      "start": "すぐ始める{0}プロセスの自動化",
+      "start_desc": "あらかじめ用意されているテンプレートを使い、ルーチンワークの自動化がすぐ始められます。",
+      "start_task": "タスクと要件元の連携",
+      "start_issues": "親課題と子課題の連携",
+      "start_task_overview": "タスクがすべて完了になったら、要件元も自動的に完了します。",
+      "start_issues_overview": "子課題がすべて完了になったら、親課題も自動的に完了します。",
+      "intuitively": "わかりやすい自動化ルールを活用",
+      "intuitively_desc": "プロセスの追加によって自動化ルールの作成を簡略化しましょう。",
+      "unlimited": "コーディング不要で無限な可能性を",
+      "unlimited_desc": "タスクの割り当て、ステータスの遷移、フィールドの更新など、{0}全てはトリガーロジックによって自動的に行えます。",
+      "rule": "自動化ルールをすべて一か所で",
+      "rule_desc": "すべてのルールを簡単に管理して実行履歴を確認することで改善し続けます。",
+      "rule_mange": "ルールの管理",
+      "rule_mange_desc": "ルールの情報確認や有効化はすべて一か所で行えるため、ルールを迅速かつ効率的に管理できます。",
+      "rule_improve": "継続的改善",
+      "rule_improve_desc": "実行の効率を監視してトラブルシューティングを行い、継続的に改善します。",
+      "cta": "信頼できるプロセスを構築、{0}ルーチンワークを効率化"
+    }
+  },
+  "landingPage": {
+    "jira": {
+      "title": "ONES - The #1 Jira Alternative",
+      "desc": "ONES is a flexible and simple Jira alternative to help your team release products better and faster.",
+      "keywords": "ONES, Jira alternatives, project management",
+      "beginOnesTitle": "Try the #1 Jira alternative for free",
+      "carouselCardsTitle": "More features, better flexibility",
+      "carouselCardsDesc": "ONES provides essential features more than scrum, organizes any type of projects, issues, and workflows to realize product ideas.",
+      "formatFirstPaintTitle": "The <span>#1 alternative</span> to Jira",
+      "formatFirstPaintDesc": "Flexibility and simplicity make ONES the #1 Jira alternative, which helps your team release products better and faster.",
+      "priceCompareCardTitle": "Get more and pay less",
+      "priceCompareCardDesc": "ONES seamlessly streamlines the whole cycle of product development with more features at more affordable pricing.",
+      "countDownCardTitle": "Prepare for Jira Server end of support",
+      "jiraCountDownTitle": "Jira Server end of support",
+      "jiraCountDownDate": "- Feb 15, 2024",
+      "jiraCountDownDesc":  "left to find an alternative solution before the start of 2024 fiscal year.",
+      "jiraCountDownSadTitle": "Migrate to Jira Cloud or Data Center",
+      "jiraCountDownSadDesc1": "Migrations will take you ",
+      "jiraCountDownSadDesc2": " or longer.",
+      "jiraCountDownHappyTitle": "Migrate to ONES smoothly",
+      "jiraCountDownHappyDesc1": "Migrate your members, projects, and issues data easily.",
+      "jiraCountDownHappyDesc2": "Ensure data integrity and security.",
+      "jiraCountDownHappyDesc3": "Migrate Confluence as well, organize all the work in one place.",
+      "tryForFreeCardTitle": "14-day free trial for ONES Suite",
+      "tryForFreeCardDesc1": "Unified on one platform",
+      "tryForFreeCardDesc2": "More flexible & customizable",
+      "tryForFreeCardDesc3": "High performance & high availability",
+      "tryForFreeCardDesc4": "No credit card required.",
+      "migrateButton": "Migrate from Jira now",
+      "tryForFree": "Try for free",
+      "fourGridCardTitle": "Why choose ONES over Jira?"
+    }
+  },
+  "compare": {
+    "compareWithMonday": {
+      "title": "比較 - Monday vs ONES｜ONES",
+      "desc": "ONES は強力な機能を備え、エンタープライズレベルの組織に対応でき、ソフトウェア開発チームに最適です。",
+      "keywords": "ONES、プロジェクト管理、ソフトウェア開発",
+      "firstScreenTitle": "なぜ Monday よりも {0}ONES か？",
+      "firstScreenDesc": "ONES はソフトウェア開発のライフサイクルをカバーし、ソフトウェア開発チームに最適です。",
+      "secondScreenTitle": "ソフトウェア開発チームに最適",
+      "secondScreenSubOneTitle": "ベストプラクティスに基づく",
+      "secondScreenSubOneDesc": "ONES はスクラム、カンバン、ウォーターフォールなどのテンプレートを提供し、設定なしですぐに使えます。",
+      "secondScreenSubTwoTitle": "ただのボードではない",
+      "secondScreenSubTwoDesc": "あらかじめ定義した ONES ワークフローエンジンでエンドツーエンドのソフトウェア開発管理を始めましょう。ONES の強力なコンポーネントにより、チーム間のコラボレーションを効率化します。",
+      "thirdScreenTitle": "エンタープライズレベルのサポート",
+      "thirdScreenItems": {
+        "firstItemTitle": "エンタープライズグレードの管理",
+        "firstItemDesc": "組織を階層的に管理し、複数のチームでスムーズに実践できます。",
+        "secondItemTitle": "高度なカスタマイズ",
+        "secondItemDesc": "お客様のご要望やシナリオに合わせて、あらゆる階層でフィールドをカスタマイズできます。",
+        "thirdItemTitle":"クラウド&オンプレミス",
+        "thirdItemDesc":"ONES はクラウドでもオンプレミス環境でも利用可能、データの可視性と制御を保証します。"
+      },
+      "lastScreenTitle": "ONES によってさらに得られるもの？",
+      "cta": "ONES で製品開発の体験を始めましょう"
+    },
+    "compareWithJira": {
+      "title": "比較 - Jira vs ONES｜ONES",
+      "desc": "ONES はお得な価格で強力な機能を備え、Jira に代わる最適な選択肢となります。Jira から ONES に乗り換える理由を見てみましょう",
+      "keywords": "ONES、プロジェクト管理、ソフトウェア開発",
+      "firstScreenTitle": "なぜ Jira よりも {0}ONES か？",
+      "firstScreenDesc": "元々備える強力で柔軟な機能だけで、ONES は Jira より様々なシナリオにおけるソフトウェア開発に対応できます。",
+      "secondScreenTitle": "シームレスな製品開発プロセスを実現",
+      "secondScreenSubOneTitle": "充実した機能",
+      "secondScreenSubOneDesc": "プラグインをインストールせずに、ガントチャート、テスト管理など充実した機能により、ONES は製品開発の効率化を進めます。",
+      "secondScreenSubTwoTitle": "料金以上の価値を得る",
+      "secondScreenSubTwoDesc": "高価なプラグインを購入せずに、お得な価格で柔軟な機能をすぐに使えます。",
+      "thirdScreenTitle": "ソフトウェア開発管理の {0} プロセスをカバーする",
+      "thirdScreenSubOneTitle": "しっかりしたアジャイルサポート",
+      "thirdScreenSubOneDesc": "あらかじめ定義した ONES ワークフローエンジンでエンドツーエンドのソフトウェア開発管理を始めましょう。ONES の強力なコンポーネントにより、チーム間のコラボレーションを効率化します。",
+      "thirdScreenSubTwoTitle": "強力で柔軟なコンポーネント",
+      "thirdScreenSubTwoDesc": "ONES は、柔軟でカスタマイズ可能なコンポーネントを備えており、複数の開発シナリオにおける作業を進めることができます。",
+      "fourthScreenTitle": "サーバー版 Jira のサポート終了に伴い、{0} ONES に乗り換える時が来た",
+      "fourthScreenSubOneTitle": "クラウド&オンプレミス",
+      "fourthScreenSubOneDesc": "ONES はクラウドでもオンプレミス環境でも利用可能、データの可視性と制御を保証します。",
+      "fourthScreenSubTwo": {
+        "title": "データ移行の完全性を保証",
+        "desc": "メンバー、プロジェクト、課題からシステム設定まで、データ移行の完全性を保証します。",
+        "firstItemTitle": "チーム情報",
+        "firstItemDesc": "ユーザー、ユーザーグループ、システム設定",
+        "secondItemTitle": "プロジェクトの設定",
+        "secondItemDesc": "課題タイプ、ワークフロー、フィールド設定、権限設定、通知",
+        "thirdItemTitle": "タスク",
+        "thirdItemDesc": "フィールド、フィールド値、スプリント、コメント、その他の情報"
+      },
+      "lastScreenTitle": "ONES によってさらに得られるもの？",
+      "cta": "ONES で製品開発の体験を始めましょう"
+    }
+  }
+}

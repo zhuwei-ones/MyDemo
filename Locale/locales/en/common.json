@@ -1,0 +1,1247 @@
+{
+  "baseComponent": {
+    "input": {
+      "defaultErrorTip": "Please enter a valid email address.",
+      "defaultPlaceholder": "input ..."
+    },
+    "passwordInput": {
+      "capLockOn": { "label": "CAPS Lock is on" },
+      "check": {
+        "characters": "8-32 characters",
+        "number": "Number",
+        "letter": "Letter"
+      },
+      "noneTip": "Password required!",
+      "formatTip": "Password must be formatted correctly."
+    }
+  },
+  "global": {
+    "punctuation": {
+      "period": "."
+    },
+    "error" : {
+      "not_found" : {
+        "msg1": "Whoops,",
+        "msg2": "we couldn't find what you are looking for.",
+        "button_text": "Learn about ONES"
+      },
+      "server_error": {
+        "msg1": "Whoops,",
+        "msg2": "looks like server failed to load your request.",
+        "description": "Try refreshing the page, or going ONES homepage and attempting the action again. If this continous happening, please contact us for help.",
+        "button_text": "Back to homepage",
+        "link_text": "Contact us"
+      }
+    },
+    "possible_destination" : {
+      "title" : "Or you may have been looking for the following:",
+      "docs": {
+        "headtitle": "Docs",
+        "description": "Get help with guides"
+      },
+      "blog": {
+        "headtitle": "Blog",
+        "description": "Learn about our thoughts"
+      },
+      "pricing": {
+        "headtitle": "Pricing",
+        "description": "Explore pricing plans"
+      },
+      "contact_us": {
+        "headtitle": "Contact us",
+        "description": "Ask a question"
+      }
+    },
+    "banner": { "title": "Partner with ONES" },
+    "input": { "placeholder": "Enter your work email" },
+    "emailInput": { "button": { "text": "Get started" } },
+    "nav": {
+      "right": {
+        "demo": "Request demo",
+        "login": "Log in",
+        "start": "Get started"
+      },
+      "productsText": "Products",
+      "priceText": "Pricing",
+      "docText": "Docs",
+      "featuresText": "Features",
+      "comparisonText": "Comparison",
+      "contactUsText": "Contact us",
+      "companyText": "Company",
+      "company": {
+        "about": {
+          "title": "About us"
+        },
+        "partnerPrograms": {
+          "title": "Partner programs"
+        },
+        "termsService": {
+          "title": "Terms of Service"
+        },
+        "privacyPolicy": {
+          "title": "Privacy Policy"
+        }
+      },
+      "product": {
+        "ul": {
+          "project": {
+            "title": "ONES Project",
+            "des": "A project platform built for agile teams"
+          },
+          "wiki": { "title": "ONES Wiki", "des": "Connect without silos" },
+          "testCase": {
+            "title": "ONES TestCase",
+            "des": "Enable QA teams to deliver better products"
+          }
+        }
+      },
+      "resources": {
+        "docs": {
+          "title": "Docs",
+          "desc": "Guides to all products"
+        },
+        "blog": {
+          "title": "Blog",
+          "desc": "Explore the latest on productivity, product tips, updates, and more"
+        }
+      },
+      "features": {
+        "gantt": {
+          "title": "Gantt",
+          "desc": "Plan and visualize all the work on Gantt"
+        },
+        "worklogs": {
+          "title": "Worklogs",
+          "desc": "Time management across people and work"
+        },
+        "reporting": {
+          "title": "Reporting",
+          "desc": "Get actionable insights and make better decisions"
+        },
+        "automations": {
+          "title": "Automations",
+          "desc": "Speed up work process and leave repetitive work behind"
+        }
+      },
+      "comparison": {
+        "jira": {
+          "title": "vs Jira"
+        },
+        "monday": {
+          "title": "vs Monday"
+        }
+      }
+    },
+    "footer": {
+      "name": "ONES",
+      "product": {
+        "title": "Products",
+        "project": "ONES Project",
+        "wiki": "ONES Wiki",
+        "testCase": "ONES TestCase"
+      },
+      "resource": {
+        "title": "Resources",
+        "pricing": "Pricing",
+        "docs": "Docs",
+        "blog": "Blog",
+        "requestDemo": "Request demo"
+      },
+      "company": {
+        "title": "Company",
+        "aboutUs": "About us",
+        "partner": "Partner programs",
+        "service": "Terms of Service",
+        "privacy": "Privacy Policy"
+      },
+      "features": {
+        "title": "Features",
+        "gantt": "Gantt",
+        "worklogs": "Worklogs",
+        "reporting": "Reporting",
+        "automations": "Automations"
+      },
+      "comparison": {
+        "title": "Comparison",
+        "jira": "vs Jira",
+        "monday": "vs Monday"
+      },
+      "copyright": { "text": "© 2023 ONES. All rights reserved." }
+    },
+    "journey": {
+      "prefixTitle": "Start your product",
+      "suffixTitle": "journey at ONES"
+    },
+    "netError": { "title": "Something went wrong. Please try again." },
+    "text": {
+      "month": "month",
+      "months": "months"
+    }
+  },
+  "head": {
+    "home": {
+      "title": "ONES | Advanced software development management platform for enterprise",
+      "desc": "Refresh your product journey with projects, tasks, docs, test cases and more.",
+      "keywords": "ONES, software development management, enterprise project management"
+    },
+    "contactUs": {
+      "title": "Contact our team | ONES",
+      "billing": { "title": "Contact our sales team | ONES" }
+    },
+    "pricing": {
+      "title": "ONES pricing and plans",
+      "desc": "Start your product journey at ONES",
+      "keywords": "ONES, ONES pricing, ONES project management"
+     },
+    "products": {
+      "project": {
+        "title": "ONES Project | Project management platform for agile teams",
+        "desc": "ONES Project adapts to software development methodology with powerful custom assembly capability.",
+        "keywords": "ONES Project, ONES project management, project management, project tracking, agile team management platform"
+      },
+      "wiki": {
+        "title": "ONES Wiki | Document collaboration and knowledge management",
+        "desc": "ONES Wiki | Bridge people, content, and ideas and keep everyone on the same page. Boost team productivity.",
+        "keywords": "ONES Wiki, knowledge base software, knowledge management software, document collaboration, document collaboration tool"
+      },
+      "testcase": {
+        "title": "ONES TestCase | Enable Q&A teams to deliver better products",
+        "desc": "Streamline your manual testing & QA process, and release products with end-to-end traceability.",
+        "keywords": "ONES TestCase, Test Management, bug tracking software, software bug tracking tools"
+      }
+    },
+    "not_found": {
+      "title": "Content not found"
+    },
+    "server_error": {
+      "title": "Internal server error"
+    },
+    "request_demo": { "title": "Meeting with ONES" },
+    "signUp": {
+      "title": "Sign up | ONES",
+      "verifyemail": { "title": "Sign up | ONES" }
+    },
+    "trust": {
+      "terms": { "title": "Terms of Use | ONES", "desc": "The Beautiful ONES offers a variety of team productivity, collaboration, software development, project management and organizational tools available online.", "keywords": "ONES, ONES project management" },
+      "privacy": { "title": "Privacy Policy | ONES", "desc": "The Beautiful ONES Technology PTE. LTD.", "keywords": "ONES, ONES project management" }
+    },
+    "partner": {
+      "title": "ONES partnership program | ONES",
+      "desc": "Explore new opportunities with us, and find the best way to grow your business.",
+      "keywords": "ONES, ONES Partner, ONES project management",
+      "application": {
+        "title": "ONES partner application | ONES"
+      }
+    },
+    "about": {
+      "title": "About ONES",
+      "desc": "To build up a standardized production line for large-scale software development.",
+      "keywords": "ONES, ONES Company, ONES project management"
+    },
+    "page404": {
+      "title": "Page not found"
+    },
+    "page500": {
+      "title": "Connection error. Try again later."
+    }
+  },
+  "home": {
+    "topBox": {
+      "release": "Release products",
+      "better": "better & faster",
+      "des": "Refresh your product  journey with projects, tasks, docs, test cases and more."
+    },
+    "introduction": {
+      "tabs": {
+        "planTabText": "Plan & track",
+        "testTabText": "Test & release",
+        "collaborateTabText": "Collaborate"
+      },
+      "plan_track": {
+        "title": "keep everything <rpc>well-organized<rpc>",
+        "linkText": "Explore ONES Project",
+        "lineText1": "PM Olivia prioritizes and creates product roadmaps.",
+        "lineText2": "Organize team work into manageable <rpc>roadmaps,<rpc> <rpc>milestones,<rpc> <rpc>sprints,<rpc> <rpc>issues,<rpc> etc. to <rpc>align<rpc> team objectives.",
+        "lineText3": "Break down epics into actionable sprints, issues.",
+        "lineText4": "Visualize <rpc>team’s workload and keep track of ongoing tasks,<rpc> highlighting the most productive moments.",
+        "lineText5": "Add intuitive reports & dashboards of projects, sprints, tasks and more to stay on track."
+      },
+      "test_release": {
+        "prefixTitle": "<rpc>Perfect<rpc> your delivery",
+        "suffixTitle": "and <rpc>release better product<rpc>",
+        "linkText": "Explore ONES TestCase",
+        "lineText1": "Easily track requirements and test activities in one platform and <rpc>get realtime insight<rpc> into QA process.",
+        "lineText2": "Test engineer Aaron detects and tracks bugs. ",
+        "lineText3": "Engineer Naomi fixes bugs.",
+        "lineText4": "Release better products, with confidence  knowing the test results.",
+        "lineText5": "Release products successfully."
+      },
+      "collaborate": {
+        "prefixTitle": "Keep team",
+        "suffixTitle": "in sync and highly productive",
+        "linkText": "Explore ONES Wiki",
+        "lineText1": "PM、Engineer and Test engineer are co-editing a project documentation.",
+        "lineText2": "Create and edit documents, checklists, mind maps <rpc>collaboratively in real-time<rpc> and keep teams on the same page.",
+        "lineText3": "PM Olivia links Wiki page to issues.",
+        "lineText4": "Gather your team members and share their great ideas anytime <rpc>in a borderless, transparent knowledge base.<rpc>"
+      }
+    },
+    "allInOne": {
+      "title": "All-in-one",
+      "subTitle": "project management platform",
+      "des": "Connect multiple teams with projects, issues, docs and reports in one platform.",
+      "release": {
+        "prefixTitle": "Accelerate release",
+        "suffixTitle": "for teams of <rpc>10 to 1000+<rpc>",
+        "des": "Find the best way that works for teams at any scale."
+      }
+    },
+    "whyONES": {
+      "title": "Why ONES?",
+      "des1": "Web-based on your own server",
+      "des2": "Natively built for seamless user experience",
+      "des3": "High performance & availability",
+      "begin": "Start your product journey at ONES"
+    },
+    "customer": {
+      "title": "Excellent customer support at any scale",
+      "demand": "Demand collection",
+      "product": "Product configuration",
+      "installation": "Installation and deployment",
+      "testing": "Testing and delivery",
+      "training": "User training",
+      "success": "Customer success"
+    },
+    "customer_review": {
+      "headtitle": "Trusted by companies and teams from <rpc>various industries<rpc>",
+      "character_msg1": {
+        "title" : "ONES Project and Wiki together is everything our team needs.",
+        "desc": "We use Wiki to report on project progress and link Wiki pages with issues in ONES Project. We save time by not having to switch between tools.",
+        "characterName": "Jervis D.",
+        "characterJobTitle": "CEO",
+        "characterEnterpriseType": "Small retail business"
+      },
+      "character_msg2": {
+        "title" : "ONES has provided excellent support throughout our data migration from Jira.",
+        "desc": " We found no difficulties fitting into ONES system since the guidance is quite clear and straightforward.",
+        "characterName": "Adarsh S.",
+        "characterJobTitle": "Director of IT department",
+        "characterEnterpriseType": "AI business"
+      },
+      "character_msg3": {
+        "title" : "ONES is no doubt a productivity booster. ",
+        "desc": "Here, all work processes are streamlined to the point that me and my colleagues can just focus on what we need to do.",
+        "characterName": "Martha D.",
+        "characterJobTitle": "Software QA engineer",
+        "characterEnterpriseType": "Computer software business"
+      }
+    }
+  },
+  "pricing": {
+    "common": {
+      "bundle": {
+        "title": "Bundle"
+      },
+      "products": {
+        "title": "Products"
+      },
+      "title": "Pricing",
+      "monthly": "Monthly",
+      "annually": "Annually",
+      "button": { "contact_us": "Contact us", "try_for_free": "Try for free" },
+      "text": {
+        "contact_us": "contact us",
+        "quote": "Contact us for a quote!"
+      },
+      "billed_annually": "Billed annually",
+      "billed_monthly": "Billed monthly",
+      "perMonth": "Per user/month",
+      "usd": "USD",
+      "popular_features": "Popular features:",
+      "features": "Features:",
+      "structured_test_case": "Structured test case",
+      "test_plan": "Test plan",
+      "test_executions": "Test executions & traceability",
+      "bulk_import": "Bulk import & export test case",
+      "filter": "Filter",
+      "create_bugs_to_project": "Create bugs to Project",
+      "linked_project_sprint_version": "Linked to Project & Sprint & Version",
+      "structured_page_tree": "Structured page tree",
+      "version_history": "Version history",
+      "permission": "Page & space permission",
+      "template_library": "Template library",
+      "collaboration_page": "Real-time collaboration pages",
+      "share_n_lock_page": "Share & lock pages",
+      "import_n_export": "Import/Export",
+      "enterprise_scale_api": "Enterprise-scale API",
+      "enterprise_grade_plugins": "Enterprise-grade plugins",
+      "high_availability": "High availability",
+      "dedicated_success_manager": "Dedicated success manager",
+      "multiple_teams": "Multiple teams",
+      "audit_log": "Audit log",
+      "enterprise_grade_security": "Enterprise-grade security",
+      "add_on_professional_services": "Add-on professional services",
+      "cloud": "Cloud",
+      "ones_project": "ONES Project",
+      "ones_wiki": "ONES Wiki",
+      "ones_testcase": "ONES TestCase",
+      "ones_suite": "ONES Suite",
+      "gantt": "Gantt",
+      "work_log": "Work log",
+      "table": {
+        "features": "Features",
+        "support": "Support",
+        "admin": "Admin & security"
+      },
+      "card": { "features": "Features" },
+      "reporting": "Reporting",
+      "automation": "Automation"
+    },
+    "enterpriseBlock": {
+      "title": "Plan for enterprise",
+      "desc": "Host in private cloud. For enterprises with global scale, security, and governance needs.",
+      "plan": {
+        "server": { "title": "On-premises" },
+        "email": {
+          "desc1": "Starting from 50 users",
+          "desc2": "Billed annually"
+        },
+        "feature": { "hide": "Hide feature list", "show": "Show feature list" },
+        "feature_content": {
+          "projects": "Projects",
+          "sprints": "Sprints",
+          "issues": "Issues",
+          "bug_tracking": "Bug tracking",
+          "scrum_boards": "Scrum boards",
+          "views": "Board & list & table views",
+          "milestone": "Milestones and deliverables",
+          "notification": "Customize notifications and reminders",
+          "download": "Download files in batches",
+          "workflow": "Customizable workflows",
+          "dependency": "Dependency management",
+          "max1G": "Up to 100 files, no more than 1G",
+          "max3G": "Up to 100 files, no more than 3G"
+        }
+      }
+    },
+    "bundle": {
+      "users": "Users",
+      "feature_list": {
+        "project_sprints_issues": "Projects, sprints, issues",
+        "scrum_kanban_boards": "Scrum and Kanban boards",
+        "traceability": "Test executions and traceability"
+      }
+    },
+    "doubt": {
+      "title": "Frequently asked questions",
+      "question": {
+        "accept": "What payment options do you accept?",
+        "member": "How does adding and removing members work?",
+        "unsubscribe": "What happens if I cancel my paid plan? How do I cancel my subscription?",
+        "trial": "What happens when the trial ends?",
+        "refund": "What is your refund policy?",
+        "successor": "You can cancel your subscription for the next billing cycle, or reactive it before the next billing date. Please <targetLink>contact us<targetLink> if you have any questions or comments.",
+        "comments": " if you have any questions or comments.",
+        "persistence": "If you cancel your subscription, your team will no longer be able to edit or add data after the next billing date, but you will still be able to view the data.",
+        "please": "Please ",
+        "afterSales": " Please <targetLink>contact us<targetLink> if you require a refund."
+      },
+      "answer": {
+        "accept": "We accept credit cards (MasterCard, Visa, or American Express) as a payment method.",
+        "remaining_license": " When the remaining license amount is insufficient: for annually billing cycle, please <targetLink>contact us<targetLink> and we will provide you with additional purchase service; for monthly billing cycle, you can still authorize; we'll charge the difference on the following month's bill.",
+        "remaining_license_part1": " contact us",
+        "remaining_license_part2": " and we will provide you with additional purchase service; for monthly billing cycle, you can still authorize; we'll charge the difference on the following month's bill.",
+        "member": "You can control whether your colleagues have access to products. If you have an unused license, there's no charge to add a new member or assign the access to another member. You can remove a member's product access, and the license access remains unused until your next billing cycle.",
+        "unsubscribe": "You can cancel your subscription for the next billing cycle, or reactive it before the next billing date. Please contact us if you have any questions or comments.",
+        "trial": "If the trial ends, your team will no longer be able to edit or add data, but you will still be able to view the data."
+      }
+    }
+  },
+  "priceStage": {
+    "monthlyBundles": {
+      "usd": {
+        "s_size": "22.39",
+        "m_size": "19.99",
+        "l_size": "17.59",
+        "xl_size": "15.19",
+        "xxl_size": "15.19"
+      }
+    },
+    "monthlyProject": {
+      "usd": {
+        "s_size": "11.50",
+        "m_size": "10.50",
+        "l_size": "9.50",
+        "xl_size": "8.50",
+        "xxl_size": "8.50"
+      }
+    },
+    "monthlyWiki": {
+      "usd": {
+        "s_size": "8.50",
+        "m_size": "7.50",
+        "l_size": "6.50",
+        "xl_size": "5.50",
+        "xxl_size": "5.50"
+      }
+    },
+    "monthlyTestCase": {
+      "usd": {
+        "s_size": "7.99",
+        "m_size": "6.99",
+        "l_size": "5.99",
+        "xl_size": "4.99",
+        "xxl_size": "4.99"
+      }
+    },
+    "annuallyTestCase": {
+      "usd": {
+        "s_size": "6.79",
+        "m_size": "5.94",
+        "l_size": "5.09",
+        "xl_size": "4.24",
+        "xxl_size": "4.24"
+      }
+    },
+    "annuallyProject": {
+      "usd": {
+        "s_size": "9.78",
+        "m_size": "8.93",
+        "l_size": "8.08",
+        "xl_size": "7.23",
+        "xxl_size": "7.23"
+      }
+    },
+    "annuallyWiki": {
+      "usd": {
+        "s_size": "7.22",
+        "m_size": "6.38",
+        "l_size": "5.53",
+        "xl_size": "4.68",
+        "xxl_size": "4.68"
+      }
+    },
+    "annuallyBundles": {
+      "usd": {
+        "s_size": "19.03",
+        "m_size": "16.99",
+        "l_size": "14.95",
+        "xl_size": "12.91",
+        "xxl_size": "12.91"
+      }
+    }
+  },
+  "products": {
+    "project": {
+      "management": {
+        "title": "Project management platform for agile teams",
+        "des": "ONES Project adapts to software development methodology with powerful custom assembly capability."
+      },
+      "features": {
+        "title": "Stay organized and collaborative",
+        "des": "Organize any types of projects, issues and workflows to realize product ideas.",
+        "scrum": {
+          "title": "Scrum",
+          "des": "Manage product backlog and plan sprints based on changing conditions, releasing quality products frequently and predictably."
+        },
+        "kanban": {
+          "title": "Kanban",
+          "des": "Visualize work and optimize the workflow through the Kanban board. Improve your planning flexibility and shorten time cycles."
+        },
+        "waterfall": {
+          "title": "Waterfall and hybrid",
+          "des": "Manage subtasks, dependencies, and each phase of the project as it moves through the waterfall lifecycle."
+        }
+      },
+      "automation": {
+        "title": "Speed up with automation",
+        "des": "Create custom rules in seconds to automate routine tasks."
+      },
+      "insight": {
+        "prefixTitle": "Get deep insight",
+        "suffixTitle": "and make improvement",
+        "des": "Effectively measure team performance and boost productivity  through complete easily-read data.",
+        "dashboards": {
+          "title": "Dashboards",
+          "des": "Focus on key metrics. Keep your projects, sprints, issues and releases on track."
+        },
+        "reports": {
+          "title": "Reports",
+          "des": "Evaluate the performance of your projects with multi-dimensional reports."
+        }
+      },
+      "scale": {
+        "prefixTitle": "Security at scale",
+        "suffixTitle": "with our robust infrastructure",
+        "des": "Provide best-in-class security features and keep your enterprise data protected.",
+        "security": {
+          "prefixAccessText": "Flexible",
+          "suffixAccessText": "access control",
+          "prefixPermissionText": "Advanced",
+          "suffixPermissionText": "permissions",
+          "prefixLogText": "Security",
+          "suffixLogText": "audit log",
+          "prefixAvailableText": "Server",
+          "suffixAvailableText": "available"
+        }
+      },
+      "empower": {
+        "prefixTitle": "Empower Project with",
+        "suffixTitle": "developer tools & integrations",
+        "des": "Seamlessly connect ONES Project to native products and world-class integrations."
+      },
+      "price": {
+        "title": "Pricing",
+        "cloud": {
+          "title": "Cloud",
+          "prefixDes": "Free for 14 days,",
+          "suffixDes": "no credit card needed.",
+          "priceDes": "Per user/month, billed monthly",
+          "priceDes2": "1-100 users",
+          "buttonText": "Try for free"
+        },
+        "server": {
+          "title": "On-premises",
+          "des": "Host in private cloud. For enterprises with global scale, security, and governance needs.",
+          "priceDes": "Starting from 50 users",
+          "priceDes2": "Billed annually",
+          "buttonText": "Contact us"
+        },
+        "linkText": "View our full pricing plans"
+      }
+    },
+    "testCase": {
+      "holistic": {
+        "title": "Holistic testing process",
+        "testcase_library": {
+          "title": "Test case library",
+          "tip1": "Organize reusable test cases in hierarchies.",
+          "tip2": "Easily manage and structure all details.",
+          "tip3": "Bulk import or edit test cases.",
+          "tip4": "Customize fields for your needs."
+        },
+        "testcase_plan": {
+          "title": "Test plans",
+          "tip1": "Select test cases from test library and organize your test plans.",
+          "tip2": "Add customized fields to specify the plan."
+        },
+        "testcase_run": {
+          "title": "Test runs",
+          "tip1": "Execute test plans through test steps and mark their statuses.",
+          "tip2": "Link bugs to sprints and requirements in a fingertip."
+        },
+        "testcase_track": {
+          "title": "Bug tracking",
+          "tip1": "Track bugs across requirements, execution results to get dynamic traceability."
+        },
+        "testcase_report": {
+          "title": "Test reports",
+          "tip1": "Make smart decisions with comprehensive and intuitive test reports."
+        },
+        "library": {
+          "title": "Co-edit in real-time",
+          "des1": "Organize test cases in hierarchies.",
+          "des2": "Easily manage and structure all details. ",
+          "des3 ": "Bulk import or edit  test cases.",
+          "des4": "Customize fields for your needs."
+        },
+        "plans": {
+          "title": "Test plans",
+          "des1": "Select test cases from test library and organize your test plans.",
+          "des2": "Add customized fields to specify the plan."
+        },
+        "runs": {
+          "title": "Test runs",
+          "des1": "Execute test plans through test steps and mark their statuses.",
+          "des2": "Link bugs to sprints and requirements in a fingertip."
+        },
+        "bug": {
+          "title": "Bug tracking",
+          "des1": "Track bugs across requirements, execution results to get dynamic traceability."
+        },
+        "reports": {
+          "title": "Test reports",
+          "des1": "Make smart decisions with comprehensive and intuitive test reports."
+        }
+      },
+      "reasons": {
+        "title": "Why TestCase",
+        "des": "Designed for team, you can quickly and easily create, store, share and search  information.",
+        "title1": "Built-in structure",
+        "desc1": "Organize your pages in clear structure.",
+        "title2": "Global searching",
+        "desc2": "Locate information in a sec with advanced searches.",
+        "title3": "Knowledge share",
+        "desc3": "Share great ideas or plans and achieve a higher level together.",
+        "title4": "Both security and ease",
+        "desc4": "Configure permissions in your way to  keep information safe.",
+        "allinone": {
+          "prefixAccessText": "All in one place",
+          "suffixAccessText": "Manage, organize and track testing in a collaborative platform."
+        },
+        "customizable": {
+          "prefixAccessText": "Fully customizable",
+          "suffixAccessText": "Customize fields, views, permissions, issue workflows and more."
+        },
+        "integration": {
+          "prefixAccessText": "Seamless integrations",
+          "suffixAccessText": "Link test results to issues and easily create bugs in ONES Project."
+        },
+        "reports": {
+          "prefixAccessText": "Smart reporting",
+          "suffixAccessText": "Visualize data with advanced dashboards and reports."
+        }
+      },
+      "characters": {
+        "testEngineer": "Test engineer",
+        "engineer": "Engineer ",
+        "planner": "PM/PO",
+        "prefixTitle": "Tools for your roles"
+      },
+      "highlight": {
+        "title": "More highlights",
+        "overview": { "prefixAccessText": "Test overview" },
+        "filter": { "prefixAccessText": "Powerful filters" },
+        "permission": { "prefixAccessText": "Flexible permissions" },
+        "export": { "prefixAccessText": "Export/Import" },
+        "structure": { "prefixAccessText": "Structures" },
+        "template": { "prefixAccessText": "Report templates" }
+      }
+    },
+    "wiki": {
+      "features": {
+        "des": "Create user-friendly contents in real-time with a group of powerful blocks.",
+        "title": "Real-time, synced, simple",
+        "scrum": {
+          "title": "Co-edit in real-time",
+          "des": "See who is connected and what they are editing in real time, empowering feeling of togetherness."
+        },
+        "kanban": {
+          "title": "Comment, discuss, task",
+          "des": "Facilitate internal communication with  to-do lists to plan, coordinate and give timely feedbacks."
+        },
+        "waterfall": {
+          "title": "Easily author & format",
+          "des": "Add tables, Markdown, code blocks, flowcharts, mind maps, and more to build docs as needed."
+        }
+      },
+      "efficiency": {
+        "title": "Unlock the full value of team expertise",
+        "des": "Designed for team, you can quickly and easily create, store, share and search  information.",
+        "title1": "Built-in structure",
+        "desc1": "Organize your pages in clear structure.",
+        "title2": "Global searching",
+        "desc2": "Locate information in a sec with advanced searches.",
+        "title3": "Knowledge sharing",
+        "desc3": "Share great ideas or plans and achieve a higher level together.",
+        "title4": "Both security and ease",
+        "desc4": "Configure permissions in your way to  keep information safe."
+      },
+      "association": {
+        "title": {
+          "line1": "Wiki & Project:",
+          "line2": "Greater collaboration and tracking"
+        },
+        "desc": "Take full advantage of tools and improve overall efficiency.",
+        "title1": "Concentrate project documentations in one place",
+        "desc1": "No need to search endlessly in emails, folders, Google Drive to find what you need. ",
+        "title2": "Boost cross-team communication",
+        "desc2": "Get full visibility of team progress and break the barrier among cross-functional teams."
+      }
+    }
+  },
+  "sign": {
+    "data": { "error": { "unknown": "data submission failed" } },
+    "title": "Get started",
+    "email": {
+      "label": "Work email",
+      "placeholder": "name@company.com",
+      "errorTip": "Please enter a valid email address.",
+      "noneErrorTip": "Work email required!",
+      "isExistErrorTip": "Email already taken, please log in to continue."
+    },
+    "password": { "label": "Password", "placeholder": "8-32 characters" },
+    "name": {
+      "label": "Name",
+      "errorTip": "Name required!",
+      "placeholder": "Alex Doe"
+    },
+    "signUp": {
+      "button": { "label": "Continue" },
+      "tip1": "By signing up, I agree to the ONES",
+      "tip2": "Terms of Service",
+      "tip3": "and",
+      "tip4": "Privacy Policy",
+      "tip5": "",
+      "belowText1": "Already have an account?",
+      "belowText2": "Log in",
+      "step2": {
+        "title": "Check your email",
+        "subTitle1": "A 6-digit code was sent to",
+        "subTitle2": "Enter it within 15 minutes.",
+        "inputLabel": "Verification code",
+        "inputPlaceholder": "Enter the 6-digit code",
+        "resendTip": "Not seeing the email?",
+        "resendText": "Resend code",
+        "resendIn": "Resend in",
+        "withoutReceiveLabel": "If you still haven’t received the email, please",
+        "errorTip1": "Too many attempts to generate an email verification code. Please wait 10 minutes.",
+        "errorTip2": "Too many attempts to generate an email verification code. Please wait 60 seconds.",
+        "contactUs": "<targetLink>contact us<targetLink>",
+        "submitLabel": "Verify",
+        "codeTip1": "Verification code required!",
+        "codeTip2": "The verification code should be 6 digits.",
+        "codeTip3": "Invalid code. Please check the code and try again.",
+        "emailExpiredCodeTip": "This code has expired. Please request another code.",
+        "mobileSuccess": {
+          "title": "ONES account created",
+          "des": "Mobile browser is not supported.  Please try ONES on your PC."
+        }
+      }
+    },
+    "loginMobile": {
+      "title": "Mobile browser is not supported. Please try ONES on your PC."
+    }
+  },
+  "testCase": {
+    "banner": {
+      "title1": "Pinpoint tracking for quality delivery",
+      "title2": " without silos",
+      "desc1": "Streamline your manual testing & QA process, and release products with end-to-end traceability."
+    }
+  },
+  "wiki": {
+    "banner": {
+      "title1": "Connect",
+      "title2": " without silos",
+      "desc1": "Bridge people, content, and ideas and keep everyone on the same page.",
+      "desc2": "Boost team productivity."
+    }
+  },
+  "company": {
+    "common": {
+      "applyButton": "Apply now",
+      "slogan": "Partner with ONES now"
+    },
+    "partner": {
+      "explore": {
+        "title": "Partner with ONES",
+        "desc": "Explore new opportunities with us, and find the best way to grow your business."
+      },
+      "partnership": {
+        "title": "Partnership programs that fit you",
+        "channel": {
+          "title": "Channel partners",
+          "desc": "Market, sell and deliver our products and solutions to increase current customer base to generate more revenue and accelerate business growth. Transform the way of work for your customers with ONES."
+        },
+        "tech": {
+          "title": "Tech partners",
+          "desc": "Empower your products with more advanced features, which extend the capabilities of the products and break into the missing market. Become a partner, and accelerate the product absorption to the end users."
+        },
+        "solution": {
+          "title": "Solution partners",
+          "desc": "Enhance the product value to end users by providing a host of services, from presales consulting, installation, to personalizing the solution to fit the needs from different users. Offer managed services that significantly increase customer lifetime value."
+        }
+      },
+      "team": {
+        "title": "Team up with the smart ONES",
+        "opportunities": {
+          "title": "More opportunities",
+          "desc": "Identify more potential customers and become part of the booming market."
+        },
+        "substantial": {
+          "title": "Substantial income",
+          "desc": "Offer in-demand products with generous margins and incentives  to grow  business."
+        },
+        "unique": {
+          "title": "Unique market outreach",
+          "desc": "Utilize our various social platforms to promote your business."
+        },
+        "support": {
+          "title": "Professional tech support",
+          "desc": "Work with our dedicated team of industry experts committed to a successful partnership."
+        },
+        "certificate": {
+          "title": "Partner certificate",
+          "desc": "Award our exclusive partner certificate for authorization."
+        },
+        "training": {
+          "title": "Free training",
+          "desc": "Receive free training and enablement to offer more professional solutions."
+        }
+      }
+    },
+    "about": {
+      "origin": {
+        "head": {
+          "title": "How <rpc>ONES<rpc> comes to be",
+          "desc": "To build up a standardized production line for large-scale software development."
+        },
+        "content": {
+          "development": {
+            "title": "Software development used to be \"mysterious\" a decade ago",
+            "desc": {
+              "paragraph": "People were amazed by legends of Internet \"heroes\" who created software with unusual skills and reached the pinnacle of their lives. ",
+              "paragraph2": "However, as time goes by, human society is entering a new stage marked by automation and digital productivity, software development has become simple in production and complicated in management."
+            }
+          },
+          "situation": {
+            "title": "What follows is the continued growth of global developers",
+            "desc": {
+              "paragraph": "According to reports, by 2024, the total number of global software developers is expected to reach 28.7 million. ",
+              "paragraph2": "Then, how to manage them and get great things done with collective intelligence has become a big proposition."
+            }
+          },
+          "vision": {
+            "title": "Standardize production line for software development",
+            "desc": {
+              "paragraph": "The founder of ONES realized that after stepping out of the ages of \"mysticism\", software production shall be more like an industrialized assembly line rather than a hand-carved workshop. ",
+              "paragraph2": "That’s why ONES comes to be—to build up a standardized production line for large-scale software development."
+            }
+          }
+        }
+      },
+      "mission": {
+        "title": "Our mission",
+        "desc": "ONES builds up an all-in-one platform with software development management products designed for high performance and availability, which supports teams and companies from all over the world to release their software faster and better."
+      },
+      "values": {
+        "title": "Values that we live on",
+        "communication": {
+          "title": "Teams & collaboration",
+          "desc": "We deliver an efficient collaborative environment and provide localized service for companies from all over the world."
+        },
+        "intelligence": {
+          "title": "Human intelligence",
+          "desc": "We believe people are the origin of great products and great companies—we trust our customers, as well as our staff, they are the measure of everything here in ONES."
+        },
+        "software": {
+          "title": "Magic of software",
+          "desc": "We’re confident in a future where everyone can change the world with software in a powerful and magical way. "
+        }
+      },
+      "info": {
+        "title": "会社概要",
+        "companyName": {
+          "key": "社名",
+          "value": "ONES JAPAN株式会社"
+        },
+        "location": {
+          "key": "所在地",
+          "value": "東京都中央区日本橋1-2-10"
+        },
+        "established": {
+          "key": "設立",
+          "value": "2022年09月"
+        },
+        "businessContent": {
+          "key": "事業内容",
+          "value": {
+            "notice1": "ITシステムの企画、設計、開発、運用及び販売",
+            "notice2": "コンピューターシステム情報の提供",
+            "notice3": "ソフトウェアの企画、立案、開発、販売及び代理店業等"
+          }
+        },
+        "financialInstitution": {
+          "key": "取引金融機関名",
+          "value": "三井住友銀行"
+        },
+        "mail": {
+          "key": "E-mail",
+          "value": "support@ones.com"
+        }
+      }
+    }
+  },
+  "features": {
+    "gantt": {
+      "title": "ONES Gantt | Plan, breakdown and track your project on Gantt",
+      "desc": "Improve team productivity and simplify project management using Gantt.",
+      "keywords": "ONES Gantt, gantt chart, project tracker, project management tool, waterfall project management, wbs",
+      "first": {
+        "title": "Plan, organize and track in a flexible way",
+        "desc": "Improve team productivity and simplify project management using Gantt."
+      },
+      "animate": {
+        "title": "Plan and break down your project {0} easily based on WBS",
+        "plan": {
+          "title": "Manage plans easily",
+          "desc": "Create plans, break down projects into manageable tasks and organize them by project phase."
+        },
+        "watch": {
+          "title": "Watch the progress",
+          "desc": "Set task durations and progress directly on the chart by simple drag&drop."
+        },
+        "point": {
+          "title": "Mark important points",
+          "desc": "Set milestones and related deliverables to hit important dates and track key deliverables."
+        },
+        "schedule": {
+          "title": "Identify bottlenecks by dependencies",
+          "desc": "Assign dependencies to ensure proper order of completion, and resolve conflicts by auto-scheduling."
+        }
+      },
+
+      "third": {
+        "title": "Stay on top of your process and {0} achieve your goals",
+        "one": {
+          "title": "Track your progress visually",
+          "desc": "Setting multiple baselines allows you to track and improve your process by comparing with original plans."
+        },
+        "two": {
+          "title": "Identify risks of delay",
+          "desc": "See the timeline gaps between execution and expectation. If tasks are running late, you will receive real-time alerts."
+        }
+      },
+      "fourth": {
+        "title": "Empower your process management",
+        "waterfall": {
+          "title": "Waterfall development",
+          "desc": "Plan, organize and track tasks at every phase of your project. Assign tasks to team members and quickly identify time risks on a visual chart."
+        },
+        "scrum": {
+          "title": "Scrum development",
+          "desc": "Create a timeline for your scrum development process. Visualize your sprints and tasks on the chart with dependencies and a progress bar."
+        },
+        "delivery": {
+          "title": "Software delivery",
+          "desc": "Monitor progress and identify time delays. Meet every deadline and satisfy all customer demands."
+        },
+        "launch": {
+          "title": "Product launch",
+          "desc": "Create a product launch plan that includes all of the internally focused decisions, steps, and tasks needed for development to stay on track."
+        }
+      },
+      "cta": "Never miss a deadline with Gantt"
+    },
+    "worklogs": {
+      "title": "ONES Worklogs | Time logging, tracking and reporting",
+      "desc": "Manage team workload and get continuous improvement through time estimates, time log tracking, and report review.",
+      "keywords": "ONES Worklogs, worklog, project time tracking, project time tracking software, project tracker, project management tool",
+      "first": {
+        "title": "Full-process time management in worklog",
+        "desc": "Manage team workload and get continuous improvement through time estimates, time log tracking, and report review."
+      },
+      "animate": {
+        "title": "Flexible work time log for work issues or members",
+        "desc": "Two worklog modes to estimate and log time. Whether you are more concerned with individual resource or task allocation, there is a solution for you. ",
+        "split": {
+          "title": "Split estimated time among people",
+          "desc": "Estimate and log time for each member separately and add it up to get the task progress. In this mode, you can easily manage your team's workload and project progress."
+        },
+        "focus": {
+          "title": "Focus on the total time of your project",
+          "desc": "Set expectations by adding estimates and logging time; track work progress by comparing actual time spent with  predictions."
+        }
+      },
+      "third": {
+        "title": "See time rollups in your way",
+        "one": {
+          "title": "Know exactly where the time goes",
+          "desc": "Get a big picture of the time spent. You'll always know the total hours and work types your members devoted to."
+        },
+        "two": {
+          "title": "Track work progress by work time logging",
+          "desc": "Monitor total progress in different dimensions by summarizing pieces of time. See if your teams' work is on track by checking time remaining."
+        }
+      },
+      "fourth": {
+        "title": "Monitor your team’s workload at a glance",
+        "desc": "View your team's availability on the time spent calendar for accurate workload tracking and effective task assigning."
+      },
+      "fifth": {
+        "title": "Get insight into people and projects",
+        "one": {
+          "title": "Member worklog overview",
+          "desc": "Monitor each member’s workload for easier resource management and make sound resource decisions."
+        },
+        "two": {
+          "title": "Project worklog overview",
+          "desc": "Get a clear overview of worklog distribution on projects or sprints, ensure enough resources for your projects to meet deadlines."
+        }
+      },
+      "cta": "Make the most of your team’s time"
+    },
+    "reporting": {
+      "title": "ONES Reporting | Get actionable insight in report",
+      "desc": "Measure team performance and make data-driven decisions with reports and dashboards.",
+      "keywords": "ONES Reporting, project planning, bug report, project tracker, project management tool",
+      "insight": "Transform data {0} into actionable insights",
+      "insight_desc": "Measure team performance and make data-driven decisions with reports and dashboards. ",
+      "empower": "Empower your project management with insightful reports",
+      "empower_desc": "Report component in ONES Project provides real-time insights that assist teams to make informed decisions for better project management.",
+      "empower_plan": "Better planning",
+      "empower_plan_desc": "Plan and assign work reasonably based on assignee reports.",
+      "empower_track": "Progress tracking",
+      "empower_track_desc": "Track your work with the status reports of tasks, requirements and bugs.",
+      "empower_review": "Review and improve",
+      "empower_review_desc": "Compare actual data against predictions to identify problems and improve for future projects.",
+      "easy": "Make management easier with preset reports",
+      "easy_work": "Work management",
+      "easy_work_desc": "Get an overview of work progress in different dimensions, identify bottlenecks and get critical data for continuous improvement.",
+      "easy_work_text1": "Issue distribution report",
+      "easy_work_text2": "Issue field resistance statistics",
+      "easy_work_text3": "Issue trend report",
+      "easy_work_text4": "Resistance time of specific field",
+      "easy_work_overview1": "View your work distribution in any dimensions your team needs for better task allocation and work management.",
+      "easy_work_overview2": "Check resistance time of any issues to easily spot blockages and identify bottlenecks.",
+      "easy_work_overview3": "Track and analyse your work in any dimension you need.",
+      "easy_work_overview4": "Get a holistic view of work resistance time in multiple fields.",
+      "easy_quali": "Quality analysis",
+      "easy_quali_desc": "Measure the development and testing quality by these critical metrics of requirements and defects.",
+      "easy_quali_req": "Requirements {0} metrics analysis",
+      "easy_quali_improve": "Improve delivery efficiency and customer satisfiction by measuring your requirement metrics in reports.",
+      "easy_quali_bug": "Bug {0} metrics analysis",
+      "easy_quali_monitor": "Monitor and improve your quality assurance activities by measuring bug metrics based on different dimensions.",
+      "easy_workload": "Workload analysis",
+      "easy_workload_desc": "Evaluate project performance and review resource allocation in series of preset worklog analysis reports.",
+      "easy_workload_list": "Worklog {0} Lists",
+      "easy_workload_monitor": "Monitor team workload, see time spent under different filter conditions.",
+      "easy_workload_overview": "Worklog {0} Overview",
+      "easy_workload_analysis": "Analyze workload for better resource allocation, see time spent distribution based on any two condition groups.",
+      "customize": "Customize advanced charting with multiple metrics",
+      "customize_desc": " Track multiple metrics at once using the dual-axis line chart or the multi-bar chart. Set filter for each metric separately and mix and match with any of your custom fields.",
+      "dashboard": "Bring all reporting together in one dashboard",
+      "dashboard_desc": "Visualize progress and organize tasks by making your own customized  dashboard.",
+      "cta": "Improve continuously with {0} multi-dimensional reporting"
+    },
+    "automations": {
+      "title": "ONES Automations | Automate routine tasks for your team",
+      "desc": "Automate routine tasks to simplify workflows and reduce errors, make your team spend more time on important work.",
+      "keywords": "ONES Automations, project tracker, project management tool",
+      "unleash": "Unleash team productivity with automation",
+      "unleash_desc": "Automate routine tasks to simplify workflows and reduce errors, make your team spend more time on important work.",
+      "start": "Start automation processes in seconds",
+      "start_desc": "We have multiple preset templates for common processes, automate your routine work in seconds.",
+      "start_task": "Sync tasks and source requirements",
+      "start_issues": "Sync parent and child issues",
+      "start_task_overview": "When all tasks are completed, the source requirement is completed automatically.",
+      "start_issues_overview": "When all the subissues are completed, the parent issue is completed automatically.",
+      "intuitively": "Intuitively build your own rule",
+      "intuitively_desc": "Build your automation rules by adding processes intuitively, simplify your configuration process.",
+      "unlimited": "Unlimited possibilities without code",
+      "unlimited_desc": "Automatically assign tasks, move statuses, update fields and more through triggers and action logic.",
+      "rule": "All the rules in one place",
+      "rule_desc": "Easily manage all of your rules, and view the running history in details for improvement. ",
+      "rule_mange": "Rules management",
+      "rule_mange_desc": "View and enable the created automation rules  with one click, get the rules running quickly and efficiently.",
+      "rule_improve": "Continuous improvement",
+      "rule_improve_desc": "Monitor running efficiency and troubleshoot problems for continuous improvement.",
+      "cta": "Build reliable processes for your routine work"
+    }
+  },
+  "landingPage": {
+    "jira": {
+      "title": "ONES - The #1 Jira Alternative",
+      "desc": "ONES is a flexible and simple Jira alternative to help your team release products better and faster.",
+      "keywords": "ONES, Jira alternatives, project management",
+      "beginOnesTitle": "Try the #1 Jira alternative for free",
+      "carouselCardsTitle": "More features, better flexibility",
+      "carouselCardsDesc": "ONES provides essential features more than scrum, organizes any type of projects, issues, and workflows to realize product ideas.",
+      "formatFirstPaintTitle": "The <span>#1 alternative</span> to Jira",
+      "formatFirstPaintDesc": "Flexibility and simplicity make ONES the #1 Jira alternative, which helps your team release products better and faster.",
+      "priceCompareCardTitle": "Get more and pay less",
+      "priceCompareCardDesc": "ONES seamlessly streamlines the whole cycle of product development with more features at more affordable pricing.",
+      "countDownCardTitle": "Prepare for Jira Server end of support",
+      "jiraCountDownTitle": "Jira Server end of support",
+      "jiraCountDownDate": "- Feb 15, 2024",
+      "jiraCountDownDesc":  "left to find an alternative solution before the start of 2024 fiscal year.",
+      "jiraCountDownSadTitle": "Migrate to Jira Cloud or Data Center",
+      "jiraCountDownSadDesc1": "Migrations will take you ",
+      "jiraCountDownSadDesc2": " or longer.",
+      "jiraCountDownHappyTitle": "Migrate to ONES smoothly",
+      "jiraCountDownHappyDesc1": "Migrate your members, projects, and issues data easily.",
+      "jiraCountDownHappyDesc2": "Ensure data integrity and security.",
+      "jiraCountDownHappyDesc3": "Migrate Confluence as well, organize all the work in one place.",
+      "tryForFreeCardTitle": "14-day free trial for ONES Suite",
+      "tryForFreeCardDesc1": "Unified on one platform",
+      "tryForFreeCardDesc2": "More flexible & customizable",
+      "tryForFreeCardDesc3": "High performance & high availability",
+      "tryForFreeCardDesc4": "No credit card required.",
+      "migrateButton": "Migrate from Jira now",
+      "tryForFree": "Try for free",
+      "fourGridCardTitle": "Why choose ONES over Jira?",
+      "carouselCards": {
+        "title0": "Board",
+        "desc0": "Visualize work and optimize workflow through Kanban board. Improve planning flexibility and shorten time cycles.",
+        "title1": "Automations",
+        "desc1": "Build automation processes to automate routine tasks for your team. Simplify workflows, reduce errors, and spend more time on important work.",
+        "title2": "Roadmap",
+        "desc2": "Strategically plan and track work. See the status of each feature built, task, and even workload capacity in roadmap.",
+        "title3": "Dashboard",
+        "desc3": "Focus on and visualize key metrics. Keep your projects, sprints, issues and releases on track.",
+        "title4": "Gantt",
+        "desc4": "Visualize your progress on multiple projects. Schedule, manage dependencies, and prioritize tasks into a project timeline.",
+        "title5": "Reporting",
+        "desc5": "Measure team performance and make data-driven decisions with reports and dashboards."
+      },
+      "fourGridCards": {
+        "title1": "One for all",
+        "desc1": "Unlike Jira using Confluence and paid plugins, ONES is an all-in-one project management platform, which simplifies processes while maximizing productivity.",
+        "title2": "More than scrum",
+        "desc2": "ONES is applicable to agile, waterfall, and hybrid projects, adapting to various R&D scenarios.",
+        "title3": "On-premises solution",
+        "desc3": "With Jira Server end of service approaching, ONES is the best on-premises server alternative with high availability for teams at any scale.",
+        "title4": "Better customer service",
+        "desc4": "ONES has a professional customer service team to provide customized solutions and technical support for your team."
+      }
+    }
+  },
+  "compare": {
+    "compareWithMonday": {
+      "title": "Comparison - Monday vs ONES｜ONES",
+      "desc": "For software development teams, ONES is a better choice with powerful features and supports enterprise-level organizations.",
+      "keywords": "ONES, project management, software development",
+      "firstScreenTitle": "Why choose ONES over Monday?",
+      "firstScreenDesc": "For software development teams, ONES is the better choice that covers the whole life cycle of software development.",
+      "secondScreenTitle": "Designed for {0} software development teams",
+      "secondScreenSubOneTitle": "Based on best practices",
+      "secondScreenSubOneDesc": "ONES supports out-of-box development management frameworks such as Scrum, Kanban, Waterfall, and more.",
+      "secondScreenSubTwoTitle": "More than a board",
+      "secondScreenSubTwoDesc": "Get started with ONES predefined workflow engine for end-to-end software development  management. Leverage powerful ONES components to ensure effective cross-team collaboration.",
+      "thirdScreenTitle": "Enterprise-level support",
+      "thirdScreenItems": {
+        "firstItemTitle": "Enterprise-grade control",
+        "firstItemDesc": "Manage your organization by hierarchy and help better implement best practices in multi-level teams.",
+        "secondItemTitle": "Fully customizable",
+        "secondItemDesc": "Customize fields on any level of the hierarchy to suit your specific requirements and unique scenarios.",
+        "thirdItemTitle":"Cloud & On-premises",
+        "thirdItemDesc":"ONES supports both cloud and on-premises deployment, ensuring complete data visibility and control."
+      },
+      "lastScreenTitle": "What more can you get out of ONES?",
+      "cta": "Start your software development journey with ONES"
+    },
+    "compareWithJira": {
+      "title": "Comparison - Jira vs ONES｜ONES",
+      "desc": "ONES is the best Jira alternative with powerful native features and affordable price. See why switch Jira to ONES.",
+      "keywords": "ONES, project management, software development",
+      "firstScreenTitle": "Why choose ONES over Jira?",
+      "firstScreenDesc":"Native and flexible features make ONES the better choice to meet software development requirements under different scenarios.",
+      "secondScreenTitle": "Ensure seamless product {0} development processes",
+      "secondScreenSubOneTitle": "A wealth of native features ",
+      "secondScreenSubOneDesc": "ONES streamlines the whole cycle of product development with a wealth of native features instead of plugins, such as Gantt chart and test management.",
+      "secondScreenSubTwoTitle": "Get more and pay less",
+      "secondScreenSubTwoDesc": "ONES provides native and flexible features at an affordable price without having to pay for expensive plugins.",
+      "thirdScreenTitle": "Cover the entire process of software development management",
+      "thirdScreenSubOneTitle": "Comprehensive agile support",
+      "thirdScreenSubOneDesc": "Get started with ONES predefined workflow engine for end-to-end software development  management. Leverage powerful ONES components to ensure effective cross-team collaboration.",
+      "thirdScreenSubTwoTitle": "Flexible and powerful components",
+      "thirdScreenSubTwoDesc": "ONES is equipped with flexible and customizable components and keeps work moving forward under multiple development scenarios.",
+      "fourthScreenTitle": "When Jira ends support for server... {0} It’s time to switch to ONES",
+      "fourthScreenSubOneTitle": "Cloud & {0} On-premises",
+      "fourthScreenSubOneDesc": "ONES supports both cloud and {0} on-premises deployment, ensuring complete data visibility and control.",
+      "fourthScreenSubTwo": {
+        "title": "Guarantee the integrity of data migration",
+        "desc": "Maintain integrity in data migration including members, projects, issues and even system configurations.",
+        "firstItemTitle": "Team information",
+        "firstItemDesc": "Users, user groups, and system configurations",
+        "secondItemTitle": "Project configurations",
+        "secondItemDesc": "Issue types, workflows, field configurations, permission configurations, and notifications",
+        "thirdItemTitle": "Tasks",
+        "thirdItemDesc": "Fields, field values, sprints, comments and other information"
+      },
+      "lastScreenTitle": "What more can you get out of ONES?",
+      "cta": "Start your software development journey with ONES"
+    }
+  }
+}
