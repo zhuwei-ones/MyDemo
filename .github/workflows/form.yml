@@ -1,0 +1,65 @@
+name: run open-test
+
+on:
+  workflow_dispatch:
+    inputs:
+      sprint:
+        description: "迭代名称"
+        required: true
+      baseURL:
+        description: "前端部署「域名」"
+        required: true
+      teamname:
+        description: "团队名称"
+        required: true
+      ignore:
+        description: "要忽略的项目「ones-project」 或 「ones-wiki」"
+        default: ""
+        required: false
+      username:
+        description: "登陆账号（默认marsdev@ones.ai）"
+        required: false
+      password:
+        description: "登陆密码（默认Test1234）"
+        required: false
+
+jobs:
+  open-test:
+    runs-on: ubuntu-latest
+    container: lironavon/docker-puppeteer-container:16.10.0
+    env:
+      PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
+      OPEN_ENV_CI: true
+      PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome-stable
+      CI: true
+
+    steps:
+      - name: Setup git in container
+        uses: actions/checkout@v3
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.2.4
+        with:
+          version: 7.3.0
+          run_install: |
+            - args: [--frozen-lockfile, --prod, --ignore-scripts]
+      - name: 🚀 run open-test with sprint ${{ inputs.sprint }} on baseURL ${{ inputs.baseURL }}
+        uses: ./
+        with:
+          sprint: ${{ inputs.sprint }}
+          baseURL: ${{ inputs.baseURL }}
+          ignore: ${{ inputs.ignore }}
+          username: ${{ inputs.username }}
+          password: ${{ inputs.password }}
+          teamname: ${{ inputs.teamname }}
+
+      - name: 📦 Tar reporters
+        if: failure()
+        run: tar -cvf reporters.tar ./reporters
+
+      - name: ⏫ Upload slot reporters
+        if: failure()
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: ${{ inputs.sprint }} - 插槽测试报告
+          path: reporters.tar
