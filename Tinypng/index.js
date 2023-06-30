@@ -6,7 +6,10 @@ const { TinyPNG } = require("tinypng");
 
 // Head over to https://tinypng.com/developers to get an API key
 
-const outputPath = "./images-compress-2"
+const dirName = "u0082_paper"
+
+const entryPath = '/Users/Person/MyDemo/Tinypng/imgs/'+dirName
+const outputPath = "/Users/Person/MyDemo/Tinypng/imgs/"+dirName+"-compress"
 
 "1x/pageName/imageName.png"
 const client = new TinyPNG("rzM9CLpPSBWmZ27jqrvQBJHsW9nBYK4x");
@@ -23,7 +26,6 @@ console.log("ok--->",outputPath);
 }
 
 // const entryPath = '/Users/Person/MyDemo/Tinypng/images'
-const entryPath = '/Users/Person/MyDemo/Tinypng/image2'
 
 glob(`${entryPath}/**/*.png`, async (err, files) => {
 
@@ -34,7 +36,7 @@ glob(`${entryPath}/**/*.png`, async (err, files) => {
         const file = files[index];
         const filename = path.basename(file)
 
-        const beishu = filename.match(/@(.+?)\./)[1]
+        const beishu = filename.match(/@(.+?)(\.|\-)/)[1]
     
         const pagename = file.replace(entryPath,"").split("/")[1]
 
