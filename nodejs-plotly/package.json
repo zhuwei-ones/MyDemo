@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-plotly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fundcharts": "^0.9.11"
+  },
+  "dependencies": {
+    "echarts": "^5.4.2"
+  }
+}
