@@ -1,0 +1,163 @@
+name: dev-ci
+
+on:
+  push:
+    branches:
+      - "github_action"
+      - "[A-Z][0-9][0-9][0-9][0-9]"
+      - "[A-Z][A-Z][0-9][0-9][0-9]"
+      - "[A-Z][0-9][0-9][0-9][0-9]_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"
+      - "[A-Z][A-Z][0-9][0-9][0-9]_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"
+      - "[A-Z][0-9][0-9][0-9][0-9]_hotfix[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"
+      - "[A-Z][A-Z][0-9][0-9][0-9]_hotfix[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"
+      - "preview[1-3]"
+      - "preview[1-3]_hotfix_[0-9]_[0-9]+_[0-9]+"
+      - "[0-9].[0-9]+.x_integration"
+      - "[0-9].[0-9]+.x_hotfix_[0-9]+"
+      # - "perf_[a-z]+"
+      # - "perf_[a-z]+_[0-9]+"
+
+env:
+  HISTORY_COMPONENT_NAME: ones-com
+  REAL_COMPONENT_NAME: ${{ github.event.repository.name }}
+  OWNER_IN_LOWER: bangwork
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v3
+
+      - name: SetUp Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+
+      - name: SetUp REAL_COMPONENT_NAME
+        if: ${{ env.HISTORY_COMPONENT_NAME != '' }}
+        run: echo "REAL_COMPONENT_NAME=${HISTORY_COMPONENT_NAME}" > ${GITHUB_ENV}
+
+      - name: Calculate Code Version
+        run: |
+          temp_version=$(echo ${{ github.ref_name}} | tr '[:upper:]' '[:lower:]')
+          echo "CODE_VERSION=${temp_version}" > ${GITHUB_ENV}
+
+      - name: Calculate Artifact Version
+        run: |
+          if [ ${{ matrix.architecture }}v == "v" ]; then
+            echo "ARTIFACT_VERSION=${CODE_VERSION}-snapshot"> ${GITHUB_ENV}
+          else
+            echo "ARTIFACT_VERSION=${CODE_VERSION}-${{ matrix.architecture }}-snapshot"> ${GITHUB_ENV}
+          fi
+
+      - name: SetUp ARTIFACT_NAME
+        run: |
+          echo "ARTIFACT_NAME=${REAL_COMPONENT_NAME}-${ARTIFACT_VERSION}" > ${GITHUB_ENV}
+
+      
+      - name: Install Oras-0.13.0
+        run: |
+          curl -LO https://github.com/oras-project/oras/releases/download/v0.13.0/oras_0.13.0_linux_amd64.tar.gz
+          mkdir -p oras-install/
+          tar -zxf oras_0.13.0_*.tar.gz -C oras-install/
+          mv oras-install/oras /usr/local/bin/
+          rm -rf oras_0.13.0_*.tar.gz oras-install/
+          oras version
+
+      - name: Publish to GitHub Packages
+        run: |
+          echo ${{ secrets.GITHUB_TOKEN }} | oras login ghcr.io -u onesai --password-stdin
+          oras pull ghcr.io/${OWNER_IN_LOWER}/${REAL_COMPONENT_NAME}:u0097-snapshot
+          mkdir -p ./performance-dist
+          tar -zxvf ${REAL_COMPONENT_NAME}-u0097-snapshot.tar.gz -C ./performance-dist
+          cd ./performance-dist
+          ls -al
+
+
+      # - name: SetUp NPM
+      #   run: |
+      #     echo "//npm2.myones.net/:username=ones" > ~/.npmrc && echo "//npm2.myones.net/:_password=SGFpbE9uZXM=" >> ~/.npmrc && npm config set registry https://npm2.myones.net && cat ~/.npmrc
+      #     npm config set registry https://npm2.myones.net
+
+      # - name: Change git config
+      #   run: |
+      #     git config --global url."https://${{ secrets.PRIVATE_DEPENDENCY_TOKEN }}:x-oauth-basic@github.com/".insteadOf "https://github.com/"
+
+      # - name: Setting
+      #   run: |
+      #     sed -i "s/dev.myones.net/dev-ones.site/g" .env.dev_online
+      #     sed -i "s/PROJECT_PROXY=project/PROJECT_PROXY=identity/g" .env.dev_online
+      #     sed -i "s#:.*\\\".*\\\"#: \\\"${{ github.ref_name }}\\\"#g" api_mapping.json
+      #     cat .env.dev_online
+      #     cat api_mapping.json
+        
+      # - name: Build Web
+      #   run: |
+      #     echo "Building Web ing..."
+      #     npm ci -f
+      #     rm -rf ./assets/images-webp
+      #     npm run webp-transform
+      #     BRANCH_NAME=${{ github.ref_name }} BASE_PATH=/web-ones-com/${{ github.ref_name }} locale=en npm run deploy:dev && npx next export -o dist
+      #     cp .webp-transform.cache ./dist
+      #     cp .webp-transform.log ./dist
+
+      
+      # - name: Whistle Cert Install
+      #   run: |
+      #     npm i whistle -g
+      #     w2 start
+      #     w2 use scripts/performance/whistle.js
+      #     curl 'http://localhost:8899/cgi-bin/intercept-https-connects' \
+      #       -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+      #       -H 'Accept-Language: en,ja;q=0.9,zh-CN;q=0.8,zh;q=0.7' \
+      #       -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+      #       -H 'Origin: http://localhost:8899' \
+      #       -H 'Proxy-Connection: keep-alive' \
+      #       -H 'Referer: http://localhost:8899/' \
+      #       -H 'Sec-Fetch-Dest: empty' \
+      #       -H 'Sec-Fetch-Mode: cors' \
+      #       -H 'Sec-Fetch-Site: same-origin' \
+      #       -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' \
+      #       -H 'X-Requested-With: XMLHttpRequest' \
+      #       -H 'sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"' \
+      #       -H 'sec-ch-ua-mobile: ?0' \
+      #       -H 'sec-ch-ua-platform: "macOS"' \
+      #       --data-raw 'clientId=1685869505769-14&interceptHttpsConnects=1' \
+      #       --compressed
+      #     sudo curl -o scripts/performance/rootCA.crt http://127.0.0.1:8899/cgi-bin/rootca
+      #     cp scripts/performance/rootCA.crt /usr/share/ca-certificates/
+      #     sudo sh -c "echo 'rootCA.crt' >> /etc/ca-certificates.conf"
+      #     sudo update-ca-certificates
+      #     sudo trust list | grep -i whistle   
+      #     node devops/scripts/notify.js 安装证书成功 
+      
+      # - name: Performance Test
+      #   run: |
+      #     npm i koa koa-static koa-compress pm2 -g
+      #     node devops/scripts/notify.js 准备工作完成，开始性能测试
+      #     pm2 start scripts/performance/server.js
+      #     node devops/scripts/notify.js 服务启动完成
+      #     npm i sitespeed lighthouse@9.6.8
+      #     node scripts/performance/index.js
+      #     node devops/scripts/notify.js 测试完成    
+
+      # - name: Package
+      #   run: |
+      #     echo "Packaging Artifact ing"
+      #     tar -zcf ${ARTIFACT_NAME}.tar.gz -C ./dist .
+      #     echo "Packaging Artifact Done"
+
+      # - name: Install Oras-0.13.0
+      #   run: |
+      #     curl -LO https://github.com/oras-project/oras/releases/download/v0.13.0/oras_0.13.0_linux_amd64.tar.gz
+      #     mkdir -p oras-install/
+      #     tar -zxf oras_0.13.0_*.tar.gz -C oras-install/
+      #     mv oras-install/oras /usr/local/bin/
+      #     rm -rf oras_0.13.0_*.tar.gz oras-install/
+      #     oras version
+
+      # - name: Publish to GitHub Packages
+      #   run: |
+      #     echo ${{ secrets.GITHUB_TOKEN }} | oras login ghcr.io -u onesai --password-stdin
+      #     oras push ghcr.io/${OWNER_IN_LOWER}/${REAL_COMPONENT_NAME}:${ARTIFACT_VERSION} ${ARTIFACT_NAME}.tar.gz

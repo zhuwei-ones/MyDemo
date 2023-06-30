@@ -1,0 +1,94 @@
+name: create_release_version
+
+on:
+  push:
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+"
+
+env:
+  HISTORY_COMPONENT_NAME: ones-com
+  REAL_COMPONENT_NAME: ${{ github.event.repository.name }}
+  OWNER_IN_LOWER: bangwork
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v3
+
+      - name: SetUp Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+
+      - name: SetUp REAL_COMPONENT_NAME
+        if: ${{ env.HISTORY_COMPONENT_NAME != '' }}
+        run: echo "REAL_COMPONENT_NAME=${HISTORY_COMPONENT_NAME}" > ${GITHUB_ENV}
+
+      ##正式版本，使用Tag作为版本标记
+      - name: Calculate Code Version
+        run: |
+          echo "CODE_VERSION=${{ github.ref_name }}" > ${GITHUB_ENV}
+
+      - name: Calculate Artifact Version
+        run: |
+          if [ ${{ matrix.architecture }}v == "v" ]; then
+            echo "ARTIFACT_VERSION=${CODE_VERSION}"> ${GITHUB_ENV}
+          else
+            echo "ARTIFACT_VERSION=${CODE_VERSION}-${{ matrix.architecture }}"> ${GITHUB_ENV}
+          fi
+
+      - name: SetUp ARTIFACT_NAME
+        run: |
+          echo "ARTIFACT_NAME=${REAL_COMPONENT_NAME}-${ARTIFACT_VERSION}" > ${GITHUB_ENV}
+      - name: SetUp NPM
+        run: |
+          echo "//npm2.myones.net/:username=ones" > ~/.npmrc && echo "//npm2.myones.net/:_password=SGFpbE9uZXM=" >> ~/.npmrc && npm config set registry https://npm2.myones.net && cat ~/.npmrc
+          npm config set registry https://npm2.myones.net
+
+      - name: Change git config
+        run: |
+          git config --global url."https://${{ secrets.PRIVATE_DEPENDENCY_TOKEN }}:x-oauth-basic@github.com/".insteadOf "https://github.com/"
+
+      - name: Setting
+        run: |
+          sed -i "s/dev.myones.net/dev-ones.site/g" .env.dev_online
+          sed -i "s/PROJECT_PROXY=project/PROJECT_PROXY=identity/g" .env.dev_online
+          sed -i "s#:.*\\\".*\\\"#: \\\"devMaster\\\"#g" api_mapping.json
+          cat .env.dev_online
+          cat api_mapping.json
+
+      - name: Build Web
+        run: |
+          echo "Building Web ing..."
+          npm ci -f
+          rm -rf ./assets/images-webp
+          npm run webp-transform
+          BRANCH_NAME=devMaster BASE_PATH=/web-ones-com/devMaster locale=en npm run deploy:dev && npx next export -o dist
+          BRANCH_NAME=devMaster BASE_PATH=/web-ones-com/devMaster/ja locale=ja npm run deploy:dev && npx next export -o dist/ja
+          cp .webp-transform.cache ./dist
+          cp .webp-transform.log ./dist
+
+      - name: Package
+        run: |
+          echo "Packaging Artifact ing"
+          tar -zcf ${ARTIFACT_NAME}.tar.gz -C ./dist .
+          echo "Packaging Artifact Done"
+
+      - name: Install Oras-0.13.0
+        run: |
+          curl -LO https://github.com/oras-project/oras/releases/download/v0.13.0/oras_0.13.0_linux_amd64.tar.gz
+          mkdir -p oras-install/
+          tar -zxf oras_0.13.0_*.tar.gz -C oras-install/
+          mv oras-install/oras /usr/local/bin/
+          rm -rf oras_0.13.0_*.tar.gz oras-install/
+          oras version
+
+      - name: Publish to GitHub Packages
+        run: |
+          echo ${{ secrets.GITHUB_TOKEN }} | oras login ghcr.io -u onesai --password-stdin
+          oras push ghcr.io/${OWNER_IN_LOWER}/${REAL_COMPONENT_NAME}:${ARTIFACT_VERSION} ${ARTIFACT_NAME}.tar.gz
+          #cp ${ARTIFACT_NAME}.tar.gz ones-com-v1.4.7.tar.gz
+          #oras push ghcr.io/${OWNER_IN_LOWER}/${REAL_COMPONENT_NAME}:v1.4.7 ones-com-v1.4.7.tar.gz
