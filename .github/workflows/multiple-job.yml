@@ -1,0 +1,46 @@
+name: dev-ci
+
+on:
+  push:
+    branches:
+      - "github_action"
+      - "[A-Z][0-9][0-9][0-9][0-9]"
+      - "[A-Z][A-Z][0-9][0-9][0-9]"
+      - "[A-Z][0-9][0-9][0-9][0-9]_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"
+      - "[A-Z][A-Z][0-9][0-9][0-9]_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"
+      - "[A-Z][0-9][0-9][0-9][0-9]_hotfix[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"
+      - "[A-Z][A-Z][0-9][0-9][0-9]_hotfix[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"
+      - "preview[1-3]"
+      - "preview[1-3]_hotfix_[0-9]_[0-9]+_[0-9]+"
+      - "[0-9].[0-9]+.x_integration"
+      - "[0-9].[0-9]+.x_hotfix_[0-9]+"
+
+env:
+  HISTORY_COMPONENT_NAME: ones-com
+  REAL_COMPONENT_NAME: ${{ github.event.repository.name }}
+  OWNER_IN_LOWER: bangwork
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create directory and files
+        run: |
+          mkdir myfolder
+          echo "file1 contents" > myfolder/file1.txt
+          echo "file2 contents" > myfolder/file2.txt
+          cd myfolder
+          mkdir myfolder-child
+          echo "file1 contents" > myfolder-child/file1.txt
+          echo "file2 contents" > myfolder-child/file2.txt
+
+
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use files from directory
+        run: |
+          ls myfolder
+          cat myfolder/file1.txt
+          cd myfolder-child
+          ls
