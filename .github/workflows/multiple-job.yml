@@ -30,7 +30,7 @@ jobs:
     steps:
       - name: Use files from directory
         run: |
-          ls  ${{ github.workspace }}/myfolder
-          cat ${{ github.workspace }}/myfolder/file1.txt
-          cd ${{ github.workspace }}/myfolder/myfolder-child
-          ls ${{ github.workspace }}/myfolder/myfolder-child
+          ls  ${{ needs.job1.outputs.workspace  }}/myfolder
+          cat ${{ needs.job1.outputs.workspace  }}/myfolder/file1.txt
+          cd ${{ needs.job1.outputs.workspace  }}/myfolder/myfolder-child
+          ls ${{ needs.job1.outputs.workspace  }}/myfolder/myfolder-child
