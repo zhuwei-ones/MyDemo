@@ -55,7 +55,7 @@ jobs:
 
       - name: Use files from directory
         run: |
-          ls
+          ls script
           ls  myfolder
           cat myfolder/file1.txt
           ls myfolder/myfolder-child
