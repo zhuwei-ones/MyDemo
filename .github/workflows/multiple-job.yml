@@ -17,13 +17,13 @@ jobs:
     steps:
       - name: Create directory and files
         run: |
-          mkdir myfolder
-          echo "file1 contents" > myfolder/file1.txt
-          echo "file2 contents" > myfolder/file2.txt
-          cd myfolder
-          mkdir myfolder-child
-          echo "file1 contents" > myfolder-child/file1.txt
-          echo "file2 contents" > myfolder-child/file2.txt
+          mkdir ${{ github.workspace }}/myfolder
+          echo "file1 contents" > ${{ github.workspace }}/myfolder/file1.txt
+          echo "file2 contents" > ${{ github.workspace }}/myfolder/file2.txt
+          cd ${{ github.workspace }}/myfolder
+          mkdir ${{ github.workspace }}/myfolder-child
+          echo "file1 contents" > ${{ github.workspace }}/myfolder/myfolder-child/file1.txt
+          echo "file2 contents" > ${{ github.workspace }}/myfolder/myfolder-child/file2.txt
 
 
   job2:
@@ -31,7 +31,7 @@ jobs:
     steps:
       - name: Use files from directory
         run: |
-          ls myfolder
-          cat myfolder/file1.txt
-          cd myfolder-child
-          ls
+          ls  ${{ github.workspace }}/myfolder
+          cat ${{ github.workspace }}/myfolder/file1.txt
+          cd ${{ github.workspace }}/myfolder/myfolder-child
+          ls ${{ github.workspace }}/myfolder/myfolder-child
