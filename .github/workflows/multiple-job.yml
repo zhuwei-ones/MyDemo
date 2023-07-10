@@ -23,6 +23,10 @@ jobs:
           mkdir ${{ github.workspace }}/myfolder/myfolder-child
           echo "file1 contents" > ${{ github.workspace }}/myfolder/myfolder-child/file1.txt
           echo "file2 contents" > ${{ github.workspace }}/myfolder/myfolder-child/file2.txt
+      - name: Output workspace path
+        id: workspace-path
+        run: echo "::set-output name=workspace::${{ github.workspace }}/myfolder"
+
 
 
   job2:
