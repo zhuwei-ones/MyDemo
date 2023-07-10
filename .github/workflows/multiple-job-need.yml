@@ -40,7 +40,7 @@ jobs:
   job3:
     needs: [job1]
     runs-on: ubuntu-latest
-    if: ${{ needs.job1.result != 'success' || needs.job2.result != 'success' }}
+    # if: ${{ needs.job1.result != 'success' || needs.job2.result != 'success' }}
     steps: 
 
       - name: Use files from directory
