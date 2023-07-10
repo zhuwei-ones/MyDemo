@@ -20,8 +20,7 @@ jobs:
           mkdir ${{ github.workspace }}/myfolder
           echo "file1 contents" > ${{ github.workspace }}/myfolder/file1.txt
           echo "file2 contents" > ${{ github.workspace }}/myfolder/file2.txt
-          cd ${{ github.workspace }}/myfolder
-          mkdir ${{ github.workspace }}/myfolder-child
+          mkdir ${{ github.workspace }}/myfolder/myfolder-child
           echo "file1 contents" > ${{ github.workspace }}/myfolder/myfolder-child/file1.txt
           echo "file2 contents" > ${{ github.workspace }}/myfolder/myfolder-child/file2.txt
 
