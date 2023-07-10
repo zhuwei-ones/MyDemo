@@ -45,5 +45,4 @@ jobs:
         run: |
           ls  myfolder
           cat myfolder/file1.txt
-          cd myfolder/myfolder-child
           ls myfolder/myfolder-child
