@@ -17,12 +17,12 @@ jobs:
     steps:
       - name: Create directory and files
         run: |
-          mkdir ${{ github.workspace }}/myfolder
-          echo "file1 contents" > ${{ github.workspace }}/myfolder/file1.txt
-          echo "file2 contents" > ${{ github.workspace }}/myfolder/file2.txt
-          mkdir ${{ github.workspace }}/myfolder/myfolder-child
-          echo "file1 contents" > ${{ github.workspace }}/myfolder/myfolder-child/file1.txt
-          echo "file2 contents" > ${{ github.workspace }}/myfolder/myfolder-child/file2.txt
+          mkdir myfolder
+          echo "file1 contents" > myfolder/file1.txt
+          echo "file2 contents" > myfolder/file2.txt
+          mkdir myfolder/myfolder-child
+          echo "file1 contents" > myfolder/myfolder-child/file1.txt
+          echo "file2 contents" > myfolder/myfolder-child/file2.txt
       
       - name: Archive shared folder
         uses: actions/upload-artifact@v2
