@@ -31,7 +31,6 @@ jobs:
           path: myfolder
 
 
-
   job2:
     runs-on: ubuntu-latest
     steps: 
@@ -41,7 +40,6 @@ jobs:
           name: myfolder
           path: myfolder
 
-      - name: Use files from downloaded folder
       - name: Use files from directory
         run: |
           ls  myfolder
