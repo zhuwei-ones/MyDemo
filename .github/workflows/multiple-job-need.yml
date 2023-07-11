@@ -1,0 +1,48 @@
+name: multiple-job
+
+on:
+  push:
+    branches:
+      - "*"
+
+env:
+  HISTORY_COMPONENT_NAME: ones-com
+  REAL_COMPONENT_NAME: ${{ github.event.repository.name }}
+
+  OWNER_IN_LOWER: bangwork
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create directory and files
+        run: |
+          mkdir myfolder
+          echo "file1 contents" > myfolder/file1.txt
+          echo "file2 contents" > myfolder/file2.txt
+          mkdir myfolder/myfolder-child
+          echo "file1 contents" > myfolder/myfolder-child/file1.txt
+          echo "file2 contents" > myfolder/myfolder-child/file2.txt
+
+      - name: Use files from directory
+        run: |
+          mv myfolder/myfolder-child 
+
+  job2:
+    needs: job1
+    runs-on: ubuntu-latest
+    if: ${{ needs.job1.result == 'success'}}
+    steps: 
+      - name: Use files from directory
+        run: |
+          cat myfolder/file1.txt
+  
+  job3:
+    needs: [job1]
+    runs-on: ubuntu-latest
+    if: ${{ needs.job1.result != 'success' || needs.job2.result != 'success' }}
+    steps: 
+      - name: Use files from directory
+        run: |
+          echo "job1 result: ${{ needs.job1.result }}"
+          echo "job2 result: ${{ needs.job2.result }}"
