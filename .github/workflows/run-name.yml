@@ -8,8 +8,7 @@ on:
       branch:
         description: "分支名"
         required: true
-    counts:
-      branch:
+      counts:
         description: "次数"
         required: true
 
