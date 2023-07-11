@@ -1,0 +1,29 @@
+name: run-name
+
+run-name: Deploy to ${{ inputs.branch }} - ${{ inputs.counts }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "分支名"
+        required: true
+    counts:
+      branch:
+        description: "次数"
+        required: true
+
+env:
+  HISTORY_COMPONENT_NAME: ones-com
+  REAL_COMPONENT_NAME: ${{ github.event.repository.name }}
+  OWNER_IN_LOWER: bangwork
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create directory and files
+        run: |
+          mkdir myfolder
+          echo "file1 contents" > myfolder/file1.txt
+          echo "file2 contents" > myfolder/file2.txt
