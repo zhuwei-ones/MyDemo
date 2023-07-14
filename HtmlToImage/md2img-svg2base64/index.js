@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { convert2img } = require("mdimg");
-
+process.env.PUPPETEER_FONT_PATH = '/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc'; // 替换为实际的字体路径
 function convertImagesToBase64(mdContent) {
   // 正则表达式用于匹配图片路径
   const regex = /!\[.*?\]\((.*?)\)/g;
@@ -46,6 +46,6 @@ fs.writeFileSync(reportPath, convertedContent);
 convert2img({
   mdFile: reportPath,
   outputFilename: "./publish_dir/report.png",
-  width: 1920,
+  width: 1260,
   cssTemplate: "github",
 });
