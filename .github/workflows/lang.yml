@@ -1,0 +1,32 @@
+name: dev-ci
+
+on:
+  push:
+    branches:
+      - "master"
+
+env:
+  REAL_COMPONENT_NAME: ${{ github.event.repository.name }}
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v3
+
+      - name: SetUp Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+
+      - name: Send Start Message
+        run: |
+          npm i mdimg
+          node HtmlToImage/md2img-svg2base64/index.js
+
+      - name: Archive report folder
+        uses: actions/upload-artifact@v2
+        with:
+          name: publish_dir
+          path: publish_dir
