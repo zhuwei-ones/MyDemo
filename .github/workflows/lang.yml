@@ -22,7 +22,6 @@ jobs:
 
       - name: Send Start Message
         run: |
-          fc-list | grep -i "noto\|droid" | grep -i "sans"
           sudo apt-get update
           sudo apt-get install fonts-noto-cjk
           npm i mdimg

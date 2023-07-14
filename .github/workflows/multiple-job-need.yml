@@ -3,7 +3,7 @@ name: multiple-job
 on:
   push:
     branches:
-      - "*"
+      - "————"
 
 env:
   HISTORY_COMPONENT_NAME: ones-com
