@@ -1,4 +1,4 @@
-name: dev-ci
+name: lang
 
 on:
   push:
