@@ -44,7 +44,7 @@ const reportPath = `./publish_dir/report.md`;
 fs.writeFileSync(reportPath, convertedContent);
 
 convert2img({
-  mdFile: "2.md",
+  mdFile: reportPath,
   outputFilename: "./publish_dir/report.png",
   width: 1920,
   cssTemplate: "github",
